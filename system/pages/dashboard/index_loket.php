@@ -35,6 +35,10 @@
     <div class="container">
     	<form>
     		<div style="background-color:#000000;"  class="jumbotron">
+				<button class="btn btn-small btn-primary goRepeat" type="button" style="float:center;padding:10px;">
+					Panggil Ulang  
+				</button>
+				
 				<font color="#FFFFFF" size="45px">
 					<h1 class="next">
 						<span class="glyphicon glyphicon-book"></span>
@@ -91,9 +95,24 @@
 	    // RESET 
 		$(".next_getway").click(function(){
 			var next_current = $(".next").text();
+			var next_repeat = 0;
 			$('#peringatan').hide();
 			console.log(nomor_loket)
-			$.post( "../apps/admin_gateway_loket.php", {"next_current": next_current,"nomor_loket": nomor_loket}, function( data ) {
+			$.post( "../apps/admin_gateway_loket.php", {"next_current": next_current,"next_repeat": next_repeat,"nomor_loket": nomor_loket}, function( data ) {
+				if(data['peringatan'] == 1){
+					$('#peringatan').show();
+				}
+				$(".next").html(data['next']);
+			},"json");
+		});
+		
+		// Repeat 
+		$(".goRepeat").click(function(){
+			var next_current = $(".next").text();
+			var next_repeat = $(".next").text();
+			$('#peringatan').hide();
+			console.log(nomor_loket)
+			$.post( "../apps/admin_gateway_loket.php", {"next_current": next_current,"next_repeat": next_repeat,"nomor_loket": nomor_loket}, function( data ) {
 				if(data['peringatan'] == 1){
 					$('#peringatan').show();
 				}

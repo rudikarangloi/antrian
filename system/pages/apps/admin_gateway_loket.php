@@ -65,12 +65,13 @@
 		$data = array();
 		$data['peringatan'] = 0;
 	
-					
-    	if(isset($_POST['next_current']) and ($_POST['next_current'] != NULL)){
+		//echo $_POST['next_repeat'].'<p>';
+	
+    	if((isset($_POST['next_current']) || isset($_POST['next_repeat'])) && (($_POST['next_current'] != NULL) || ($_POST['next_repeat'] != NULL))){
     		$id = intval($_POST['next_current'])+1;  		
 
             $sql = "SELECT id as count FROM data_antrian WHERE  STATUS = 3 ". $sql_loket .$filter_waktu. " ORDER BY id LIMIT 1";
-            //echo $sql;
+            //echo $sql.'<p>';
 			$rstClient = $mysqli->query($sql);			
     		$rowClient = $rstClient->fetch_array();
     		if($rowClient['count']){
@@ -81,11 +82,22 @@
 				Cek field id apakah status sedang dipanggil [status=1]
 				*/			
                 $sqla = "SELECT id as count FROM data_antrian WHERE  (status = 0 OR status = 1) ". $sql_loket .$filter_waktu." ORDER BY id LIMIT 1";
+				//echo $sqla.'<p>';
               	$rsta = $mysqli->query($sqla);			
 				$rows = $rsta->fetch_array();
 				if($rows['count']){
-					$jmlCountId = $_POST['next_current'];	
-					$data['peringatan'] = 1;	
+					$jmlCountId = $_POST['next_current'];
+					$repeatId = $_POST['next_repeat'];
+					
+					if($repeatId != 0){
+						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=1 AND nomor=$repeatId;";
+						$results = $mysqli->query($sqlb);
+						//echo $sqlb.'<p>';
+					}else{
+						//echo 'DO Nothing<p>';
+						$data['peringatan'] = 1;
+					}
+					
 				}else{
 					
 					/*Ambil nomor tertinggi*/					
@@ -123,14 +135,35 @@
 				//Not insert
 				//Jika telah diakhir antrian, panggil nomor tertinggi yg memiliki status 2/telah dipanggil
 				//$results = $mysqli->query('INSERT INTO data_antrian (waktu,status) VALUES ("'.date("Y-m-d H:i:s").'",3)');
-				$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");				
-                $rowCountId = $rstCountId->fetch_array();
-                    
-				if($rowCountId['count']>0){
-					$jmlCountId = (int)$rowCountId['count'] ;
-				}else{						
-					$jmlCountId = 1;						
+				
+				$repeatId = $_POST['next_repeat'];
+					
+				if($repeatId != 0){
+					//$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
+					//$results = $mysqli->query($sqlb);
+					//echo $sqlb.'<p>';
+					//$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE nomor=$repeatId ". $sql_loket.$filter_waktu." ORDER BY id ");	
+					$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");	
+					$rowCountId = $rstCountId->fetch_array();
+						
+					if($rowCountId['count']>0){
+						$jmlCountId = (int)$rowCountId['count'] ;
+					}else{						
+						$jmlCountId = 1;						
+					}
+				}else{
+				
+					$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");				
+					$rowCountId = $rstCountId->fetch_array();
+						
+					if($rowCountId['count']>0){
+						$jmlCountId = (int)$rowCountId['count'] ;
+					}else{						
+						$jmlCountId = 1;						
+					}
 				}
+					
+				
 			}
 		    //echo json_encode( array('next'=> $jmlCountId) );
 			
