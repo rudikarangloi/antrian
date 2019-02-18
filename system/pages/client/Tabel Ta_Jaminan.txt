@@ -1,0 +1,139 @@
+
+CREATE TABLE `ta_jaminan` (
+  `FS_KD_JAMINAN` varchar(3) NOT NULL,
+  `FS_NM_JAMINAN` varchar(30) NOT NULL,
+  `FB_SUB_LADGER` decimal(18,0) NOT NULL,
+  `FS_KD_CARA_BAYAR_DK` varchar(2) NOT NULL,
+  `FS_PIUT_RAWAT` varchar(15) NOT NULL,
+  `FS_PIUT_PULANG` varchar(15) NOT NULL,
+  `FS_PIUT_OBAT_RAWAT` varchar(15) NOT NULL,
+  `FS_PIUT_OBAT_PULANG` varchar(15) NOT NULL,
+  `FS_GIRO_RAWAT` varchar(15) NOT NULL,
+  `FS_GIRO_PULANG` varchar(15) NOT NULL,
+  `FS_GIRO_OBAT_RAWAT` varchar(15) NOT NULL,
+  `FS_GIRO_OBAT_PULANG` varchar(15) NOT NULL,
+  `FN_PERSEN_POTONGAN` decimal(18,0) NOT NULL,
+  `FS_KD_GRUP_JAMINAN` varchar(3) NOT NULL,
+  `FN_PERSEN_DISKON` decimal(18,0) NOT NULL,
+  PRIMARY KEY (`FS_KD_JAMINAN`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=26 ;
+
+
+
+INSERT INTO `ta_jaminan` VALUES ('001', 'UMUM', 1, '1', '1031.0101', '1032.0101', '1031.0109', '1032.0109', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('002', 'B (0FF)', 1, '2A', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('003', 'ASKES SOSIAL', 1, '2A', '1031.0103', '1032.0103', '1031.0111', '1032.0111', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('004', 'INHEALTH', 1, '2A', '1031.0104', '1032.0104', '1031.0112', '1032.0110', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('005', 'JAMSOSTEK (0FF)', 1, '2D', '1031.0105', '1032.0105', '1031.0113', '1032.0113', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('007', 'GRATIS KARYAWAN RSUD (OFF)', 1, '3', '1031.0107', '1032.0107', '1031.0114', '1032.0114', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('008', 'GSIP,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('009', 'GSPP,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('010', 'GSYM.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('011', 'GSDI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('012', 'AGRO MENARA RAHMAT AMR.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('013', 'NAL.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('014', 'BUMI LANGGENG PERDANA PRIMA PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('015', 'KSK GROUP.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('016', 'TAPIAN NADENGGAN,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('017', 'PTP.NUSANTARA XIII ( PERSERO )', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('018', 'P (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('019', 'INDOTRUBA TIMUR,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('020', 'AE (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('021', 'PERTAMINA,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('022', 'PLN.PT (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('023', 'H (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('025', 'KORINDO ARIABIMA SARI(JPK).PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('026', 'KORINTIGA HUTANI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('027', 'HUTANINDO LESTARI TIMBER.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('028', 'GRAHA CAKRA MULIA,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('029', 'AB (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('030', 'HARAPAN SAWIT LESTARI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('031', 'AD (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('032', 'SINP.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('034', 'PBNA.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('035', 'KARDA TRADERS.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('036', 'SEI.RANGIT, PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('037', 'GEMAREKSA MEKARSARI PKS, PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('038', 'BFI.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('078', 'SINAR ALAM PERMAI.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('079', 'BUMI PERDANA PRIMA,PT (0FF)', 1, '2B', '1032.0106', '1032.0106', '1032.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('080', 'BRI', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('081', 'D (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('082', 'E (0FF)', 1, '2D', '1032.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('083', 'META EPSI AGRO,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('084', 'SABUT MAS ABADI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('085', 'CIPTATANI KUMAI SEJAHTRA,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('086', 'PETRO ANDALAN NUSANTARA,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('087', 'HHK SUNGAI BILA ESTATE,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('088', 'HHK LIPAT GUNTING ESTATE,PT ', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('089', 'SUMBER MAHARDHIKA GRAHA,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('090', 'JAMKESMAS (0FF)', 1, '2C', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('091', 'Q (0FF)', 0, '2B', '1031.0107', '1032.0107', '1032.0102', '1031.0102', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('092', 'T (0FF)', 0, '2D', '1031.0102', '1032.0102', '1031.0102', '1032.0102', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('093', 'JAMKESDA-SKTM KOBAR', 1, '2C', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('094', 'R (0FF)', 0, '2B', '1031.0107', '1032.0107', '1031.0107', '1032.0107', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('095', 'BUMITAMA GUNAJAYA ABADI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('096', 'SURYA SAWIT SEJATI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('097', 'BAKRIE SENTOSA PERSADA KAL.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('098', 'AF (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('099', 'DINKES KAB.SUKAMARA', 1, '2D', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('100', 'K (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('101', 'L (0FF)', 1, '2D', '1031.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('102', 'INDOTRUBA TENGAH PKS SKNYR.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('103', 'INDOTRUBA TENGAH SKNYR ESTT.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('104', 'INDOTRUBA TENGAH SRYN ESTT.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('106', 'CBI GROUP, PT ', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('107', 'ASURANSI BUMIDA, PT (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('108', 'GRAHA CAKRA MULYA MILL, PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('109', 'BNI LIFE INSURANCE, PT (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('110', 'AG (0FF)', 0, '2D', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('111', 'DINKES KAB.SERUYAN (0FF)', 1, '2D', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('112', 'AA (OFF)', 1, '2D', '1031.0102', '1032.0102', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('113', 'PILAR WANA PERSADA.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('114', 'DEPNAKERTRANS', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('115', 'AC (0FF)', 1, '2D', '1032.0106', '1032.0106', ' ', ' ', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('120', 'FIRST LAMANDAU TIMBER , PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('121', 'JAMPERSAL KOTAWARINGIN BARAT', 1, '2D', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('122', 'MEGA CENTRAL FINANCE', 1, '2D', '1032.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('123', 'BWP MILL,PT', 1, '2D', '1032.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('124', 'KAPUAS PRIMA COAL.PT (0FF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('125', 'MINAMAS PLANTATION, PT (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('126', 'ZAKIRAH HEALT CARE.PT (0FF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('127', 'TRAKINDO UTAMA', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('128', 'TH FELDA NUSANTARA', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('129', 'SATRIA HUPASARANA.PT (0FF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('130', 'ENSBURY KALTENG MINING.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('131', 'SUKSES KARYA MANDIRI.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('132', 'BJAP, PT.(OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('133', 'ADIRA FINANCE .PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('134', 'AVRIST ASSURANCE, PT (0FF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('135', 'GESA ASSISTANCE / AKSA (0FF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('136', 'TRIEKA AGRO NUSANTARA, PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('137', 'JIWASRAYA (0FF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('138', 'FLTI MILL.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('139', 'X (0FF)', 1, '2B', '1031.0107', '1032.0107', '1031.0114', '1032.0114', ' ', ' ', ' ', ' ', 100, ' ', 100);
+INSERT INTO `ta_jaminan` VALUES ('140', 'DHARMA SATYA NUSANTARA.PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('141', 'KOBAR SEHAT', 1, '2C', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('142', 'KRESNA ASURANSI (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('143', 'WSSL 01,PT (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('144', 'WSSL 02,PT (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('145', 'PT. PATRIOT CINTA NUSANTARA', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('146', 'BJAP PT. 02 (OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('147', 'MNC LIFE INSURANCE PT.(OFF)', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('148', 'BPJS KESEHATAN NON PBI', 1, '2C', '1031.0103', '1032.0103', '1031.0111', '1032.0111', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('149', 'BPJS KESEHATAN PBI', 1, '2C', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('150', 'BPJS KOBAR SEHAT(JAMKESDA)', 1, '2C', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('151', 'KORINDO ARIABIMA SARI(JKK).PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('152', 'BAKRIE SUMATERA PLANTATIONS PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('153', 'MARGIE ANDALAN PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('154', 'WASKITA KARYA (PERSERO), PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('155', 'BPJS KETENAGAKERJAAN', 1, '2B', '1031.0105', '1032.0105', '1031.0113', '1032.0113', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('156', 'JASA RAHARJA', 1, '2B', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('157', 'XX AXSA MANDIRI.PT', 1, '2B', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('158', 'JAMINAN BNN', 1, '2B', '1031.0107', '1032.0107', '1031.0114', '1031.0114', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('159', 'CARGILL POLIPLANT GROUP, PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('160', 'AIA ASURANSI FINANCIAL, PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('161', 'MENTHOBI MAKMUR LESTARI,PT', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0108', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('162', 'JAMPERSAL KAB. LAMANDAU', 1, '2D', '1031.0102', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('163', 'JAMPERSAL KAB. SUKAMARA', 1, '2D', '1031.0107', '1032.0102', '1031.0110', '1032.0112', ' ', ' ', ' ', ' ', 0, ' ', 0);
+INSERT INTO `ta_jaminan` VALUES ('164', 'MEGA INSURANCE', 1, '2D', '1031.0106', '1032.0106', '1031.0108', '1032.0106', ' ', ' ', ' ', ' ', 0, ' ', 0);

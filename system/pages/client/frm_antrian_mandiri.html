@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sistem Antrian</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assert/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../assert/css/keyboard-virtual.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../assert/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../assert/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+
+  <!--
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+ 
+     Custom styles for this template -->
+  <link href="../assert/css/landing-page.min.css" rel="stylesheet">
+
+  <script src="../assert/asset/js/lib/jquery.js"></script>
+  <script src="../assert/asset/js/lib/jquery-ui.js"></script>
+  <script src="../assert/asset/js/lib/jquery.cookie.js"></script>
+  <script src="../assert/asset/js/lib/bootstrap/bootstrap.js"></script>
+
+  <script src="../assert/asset/plugins/bootstrap-bootbox/bootbox.min.js"></script>
+  <script src="../assert/asset/plugins/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
+  <script src="../assert/asset/plugins/bootstrap-modal/js/bootstrap-modal.js"></script>
+
+
+
+  <!--
+	   <script src="vendor/jquery/jquery.validate.min.js"></script>   
+	   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/mok-project@latest/dist/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/mok-project@latest/dist/styles.css"> 
+	
+	<script src="https://cdn.jsdelivr.net/gh/hawkgs/jqKeyboard/development/build/jqkeyboard.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hawkgs/jqKeyboard/layouts/jqk.layout.en-bg.js"></script>
+	-->
+
+  <!-- Keyboar virtual  -->
+  <script src="../assert/vendor/keyboard/jqkeyboard.js"></script>
+  <script src="../assert/vendor/keyboard/jqk.layout.en-bg.js"></script>
+
+  <!-- Keyboar virtual online  
+	<script src="https://cdn.jsdelivr.net/gh/hawkgs/jqKeyboard/development/build/jqkeyboard.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/hawkgs/jqKeyboard/layouts/jqk.layout.en-bg.js"></script>
+	-->
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+
+      <!-- $(document).keyboard({ -->
+      <!-- language: 'us:English, arabic:العَرَبِيَّة, vietnamese:tiếng Việt, hindi:हिन्दी',			  -->
+      <!-- enterKey: function () { -->
+      <!-- alert('Hey there! This is a callback function example.'); -->
+      <!-- }, -->
+      <!-- keyboardPosition: 'bottom', -->
+      <!-- directEnter: false, -->
+      <!-- showSelectedLanguage: false -->
+      <!-- }); -->
+    });
+  </script>
+</head>
+
+
+<style>
+  #peringatan{
+      text-align: center;
+      font-size: 30px;
+      color: red
+
+    }
+</style>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <button id="goHome" class="btns btn-small btn-primary" type="button" style="float:left;padding:20px;">
+        Menu Utama &nbsp;<span class="glyphicon glyphicon-home"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sistem Antrian RSUD Imanuddin</a>
+
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5"></h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+
+          <form name="myfrm" method="POST" action="form_input_data.php">
+            <div class="form-row">
+
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="text" name="input_data" id="input_data" class="form-control form-control-lg" placeholder="Masukan Nomor rekam Medis ..."
+                  required>
+              </div>
+              <div id="loadingImg" style="float:right; text-align:center; width:80%; height:0px; position:absolute; display:none">
+                <img src="../assert/img/loading3.gif" alt="" width="100" height="100">
+              </div>
+              <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-block btn-lg btn-primary">Daftar</button>				
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <p id="peringatan">Data Rekam Medis Tidak di kenal</p>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+
+          <p class="text-muted small mb-4 mb-lg-0">&copy; RSSI 2018.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+
+
+  <!-- 
+  <script src="https://cdn.jsdelivr.net/gh/hawkgs/jqKeyboard/development/build/jqkeyboard.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hawkgs/jqKeyboard/layouts/jqk.layout.en-bg.js"></script> 
+  -->
+
+  <!-- Keyboar virtual  -->
+  <script src="../assert/vendor/keyboard/jqkeyboard.js"></script>
+  <script src="../assert/vendor/keyboard/jqk.layout.en-bg.js"></script>
+
+  <script languange="javascript">
+    var objfrm = document.myfrm;
+
+    $("document").ready(function () {
+
+      jqKeyboard.init();
+
+	  $('#input_data').focus().val($('#input_data').val());
+	  
+      $('#peringatan').hide();
+
+      /*
+			$("#myfrm").validate({
+                rules:{                   
+					input_data:{
+                                required:true,
+                                minlength:12
+								}
+                },
+                messages:{                  
+					input_data : {
+                                required : "Silahkan Isi Nomor Rekam Medis Anda",
+                                minlength : "Masukan Minimal 12 karakter"
+                                }
+                   
+                }
+            });
+			*/
+
+      /*
+            $("document").keyboard({
+                language: 'us:English, arabic:العَرَبِيَّة, vietnamese:tiếng Việt, hindi:हिन्दी',
+                enterKey: function () {
+                    alert('Hey there! This is a callback function example.');
+                },
+                keyboardPosition: 'bottom',
+                directEnter: false,
+                showSelectedLanguage: true
+            });
+			*/
+      // 
+
+      $("#goHome").click(function (e) {
+        e.preventDefault();
+        window.location = "index.html";
+      });
+
+
+      $(".btn").click(function () {
+
+        var input_data = $('#input_data').val();
+
+        if (input_data == '') {
+          alert('Silahkan Isi Data terlebih dulu');
+        } else {
+          $("#loadingImg").show();
+          $(".btn").attr("disabled", true);
+
+          $.post("cek_data_rm.php", {
+            "input_data": input_data
+          }, function (data) {
+
+            if (data['peringatan'] == '1') {
+              $('#peringatan').show();
+            } else {
+              $('#peringatan').html('Data Berhasil Di temukan <br> Proses Sedang Berlangsung');
+              $(objfrm).submit()
+            }
+
+            $("#loadingImg").hide();
+
+            $(".btn").removeAttr("disabled");
+
+          }, "json");
+        }
+
+
+      });
+
+
+
+    });
+  </script>
+
+</body>
+
+</html>
