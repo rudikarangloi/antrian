@@ -95,7 +95,7 @@
 						$rstCountId = $mysqli->query("SELECT MIN(nomor) as count FROM data_antrian WHERE STATUS = 3 ". $sql_loket.$filter_waktu." ORDER BY id ");
 					}
 					
-							$rowCountId = $rstCountId->fetch_array();
+					$rowCountId = $rstCountId->fetch_array();
 					if($rowCountId['count']>0){
 						$jmlCountId = (int)$rowCountId['count'] ;
 					}else{						
@@ -117,8 +117,17 @@
 			
 				//update
 			}else{
-				//insert
-				$results = $mysqli->query('INSERT INTO data_antrian (waktu,status) VALUES ("'.date("Y-m-d H:i:s").'",3)');
+				//Not insert
+				//Jika telah diakhir antrian, panggil nomor tertinggi yg memiliki status 2/telah dipanggil
+				//$results = $mysqli->query('INSERT INTO data_antrian (waktu,status) VALUES ("'.date("Y-m-d H:i:s").'",3)');
+				$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");							
+                $rowCountId = $rstCountId->fetch_array();
+                    
+				if($rowCountId['count']>0){
+					$jmlCountId = (int)$rowCountId['count'] ;
+				}else{						
+					$jmlCountId = 1;						
+				}
 			}
 		    //echo json_encode( array('next'=> $jmlCountId) );
 			
