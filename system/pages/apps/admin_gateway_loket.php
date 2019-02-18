@@ -113,15 +113,15 @@
 					}else{
 						//Jika nomor antrian Tidak per loket
 						$results = $mysqli->query('UPDATE data_antrian SET status=0,loket = '.$dLoket.' WHERE id='.$id.'');
-					}
-				
+					}			
 					
-				}			
+				}		
 				
 			
 				//update
 			}else{
-				//insert
+				//Not insert
+				//Jika telah diakhir antrian, panggil nomor tertinggi yg memiliki status 2/telah dipanggil
 				//$results = $mysqli->query('INSERT INTO data_antrian (waktu,status) VALUES ("'.date("Y-m-d H:i:s").'",3)');
 				$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");				
                 $rowCountId = $rstCountId->fetch_array();
