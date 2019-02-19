@@ -137,7 +137,9 @@
 					//var angka = data["next"];
 					var angka = data["nomor"];
 					for (var i = 0 ; i < angka.toString().length; i++) {
+						
 						$(".audio").append('<audio id="suarabel'+i+'" src="../assert/audio/new/'+angka.toString().substr(i,1)+'.MP3" ></audio>');
+						
 					};
 					console.log('2');
 					//$("."+jml_loket+" h1").html(data["nomor"]);	     //Tambahan

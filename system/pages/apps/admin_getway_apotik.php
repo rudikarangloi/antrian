@@ -64,7 +64,7 @@
 		$data['peringatan'] = 0;
 	
 					
-    	if(isset($_POST['next_current']) and ($_POST['next_current'] != NULL)){
+    	if((isset($_POST['next_current']) || isset($_POST['next_repeat'])) && (($_POST['next_current'] != NULL) || ($_POST['next_repeat'] != NULL))){
     		$id = intval($_POST['next_current'])+1;  		
 
 			$sql = "SELECT id as count FROM data_antrian_apotik WHERE  STATUS = 3 ". $sql_loket .$filter_waktu. " ORDER BY id LIMIT 1";
@@ -79,9 +79,18 @@
 				$sqla = "SELECT id as count FROM data_antrian_apotik WHERE  (status = 0 OR status = 1) ". $sql_loket .$filter_waktu." ORDER BY id LIMIT 1";
 				$rsta = $mysqli->query($sqla);			
 				$rows = $rsta->fetch_array();
-				if($rows['count']){
-					$jmlCountId = $_POST['next_current'];	
-					$data['peringatan'] = 1;	
+				if($rows['count']){					
+					$jmlCountId = $_POST['next_current'];
+					$repeatId = $_POST['next_repeat'];
+					
+					if($repeatId != 0){
+						$sqlb = "UPDATE data_antrian_apotik SET STATUS=0 WHERE STATUS=1 AND nomor=$repeatId;";
+						$results = $mysqli->query($sqlb);
+						//echo $sqlb.'<p>';
+					}else{
+						//echo 'DO Nothing<p>';
+						$data['peringatan'] = 1;
+					}
 				}else{
 					
 					/*Ambil nomor tertinggi*/

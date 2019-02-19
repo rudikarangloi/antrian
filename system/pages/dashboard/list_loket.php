@@ -74,7 +74,7 @@
 		//var gg={1:'POLI ANAK',2:'POLI JANTUNG',3:'POLI UMUM',4:'POLI THT',5:'POLI PENYAKIT DALAM',6:'-',7:'-',8:'-',9:'-'};
 		//var gg={1:'SATU',2:'DUA',3:'TIGA',4:'EMPAT',5:'LIMA',6:'ENAM',7:'TUJUH',8:'DELAPAN',9:'SEMBILAN'};
 		setInterval(function() {
-			$.post("../apps/monitoring-daemon-loket.php", function( data ){
+			$.post("../apps/monitoring-daemon_preview.php", function( data ){
 				if(tmp_loket!=data['jumlah_loket']){
 					$(".col-md-3").remove();
 					tmp_loket=0;

@@ -36,6 +36,9 @@
 		<button class="btn btn-small btn-primary goHome" type="button" style="float:left;padding:20px;">
             Menu Utama <span class="glyphicon glyphicon-home"></span>    
         </button>
+		<button class="btn btn-small btn-primary goRepeat" type="button" style="float:right;padding:20px;">
+            Panggil Ulang     
+        </button>
     	<form>
     		<div style="background-color:#000000;"  class="jumbotron">
 				<font color="#FFFFFF" size="45px">
@@ -93,9 +96,24 @@
 	    // RESET 
 		$(".next_getway").click(function(){
 			var next_current = $(".next").text();
+			var next_repeat = 0;
 			$('#peringatan').hide();
 			
-			$.post( "../apps/admin_getway_apotik.php", {"next_current": next_current,"nomor_loket": nomor_loket}, function( data ) {
+			$.post( "../apps/admin_getway_apotik.php", {"next_current": next_current,"next_repeat": next_repeat,"nomor_loket": nomor_loket}, function( data ) {
+				if(data['peringatan'] == 1){
+					$('#peringatan').show();
+				}
+				$(".next").html(data['next']);
+			},"json");
+		});
+		
+		// Repeat 
+		$(".goRepeat").click(function(){
+			var next_current = $(".next").text();
+			var next_repeat = $(".next").text();
+			$('#peringatan').hide();
+			
+			$.post( "../apps/admin_getway_apotik.php", {"next_current": next_current,"next_repeat": next_repeat,"nomor_loket": nomor_loket}, function( data ) {
 				if(data['peringatan'] == 1){
 					$('#peringatan').show();
 				}

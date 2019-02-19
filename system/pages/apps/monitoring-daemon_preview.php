@@ -5,7 +5,7 @@
 		$data = array();
 		$date = date("Y-m-d");		
 		
-		
+		/*
 		$results = $mysqli->query('SELECT  count(*) as jumlah_loket FROM client_antrian');	
 		$loket = $results->fetch_array();
 		$data['jumlah_loket'] = $loket['jumlah_loket']; // set jumlah loket
@@ -15,7 +15,7 @@
 			
 			$sql = 'SELECT max(id) as id FROM data_antrian WHERE counter ='. $cl['client'] .' and status=2'.$filter_waktu ;
 			$sql = 'SELECT max(nomor) as id FROM data_antrian WHERE counter ='. $cl['client'] .' and status=2 '.$filter_waktu ;
-			
+						
 			$rst = $mysqli->query($sql); // execution
 			$row = $rst->fetch_array();
 			if ($row['id']==NULL) {
@@ -25,6 +25,21 @@
 			}
 			$data["init_counter"][$cl['client']] = $id; // inisial setiap loket
 				
+		}
+		*/
+		$results = $mysqli->query('SELECT  count(*) as jumlah_loket FROM loket_antrian');	
+		$loket = $results->fetch_array();
+		$data['jumlah_loket'] = $loket['jumlah_loket']; // set jumlah loket
+		$client = $mysqli->query('SELECT client From loket_antrian'); // execution
+		while ($cl = $client->fetch_array()) {
+			$rst = $mysqli->query('SELECT max(nomor) as id FROM data_antrian WHERE loket ='. $cl['client'] .' and status=2 '.$filter_waktu); // execution
+			$row = $rst->fetch_array();
+			if ($row['id']==NULL) {
+                $id=0;               
+			} else {
+                $id=$row['id'];              
+			}
+			$data["init_counter"][$cl['client']] = $id; // inisial setiap loket
 		}
 		
 		$sql = "";

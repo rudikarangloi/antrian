@@ -75,14 +75,14 @@
         	<!--<label for="exampleInputEmail1" style="text-align: left;">
 				<span class="glyphicon glyphicon-fullscreen">&nbsp;</span>SILAHKAN PILIH</label>--> 
         	<select class="form-control loket" name="loket" required			
-        		<option value="0">-PILIH POLI-</option>
+        		<option value="0">-PILIH Apotik-</option>
 			</select>
 			
 			<div id="radio_container"></div>			
 			
 			
         	<div class="alert alert-danger peringatan" role="alert">
-        		<strong>PERINGATAN !!</strong>  Anda belum memilih POLI.
+        		<strong>PERINGATAN !!</strong>  Anda belum memilih Apotik.
         	</div>
     	</form>
       	<footer class="footer">

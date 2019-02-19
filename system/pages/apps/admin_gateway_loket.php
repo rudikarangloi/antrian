@@ -65,8 +65,7 @@
 		$data = array();
 		$data['peringatan'] = 0;
 	
-		//echo $_POST['next_repeat'].'<p>';
-	
+			
     	if((isset($_POST['next_current']) || isset($_POST['next_repeat'])) && (($_POST['next_current'] != NULL) || ($_POST['next_repeat'] != NULL))){
     		$id = intval($_POST['next_current'])+1;  		
 

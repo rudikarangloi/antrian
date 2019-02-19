@@ -32,13 +32,13 @@
 		}
 	</style>
   	<body>
-    <div class="container">
+    <div class="container">		
+		<button class="btn btn-small btn-primary goRepeat" type="button" style="float:left;padding:20px;">
+            Panggil Ulang     
+        </button>		
     	<form>
     		<div style="background-color:#000000;"  class="jumbotron">
-				<button class="btn btn-small btn-primary goRepeat" type="button" style="float:center;padding:10px;">
-					Panggil Ulang  
-				</button>
-				
+								
 				<font color="#FFFFFF" size="45px">
 					<h1 class="next">
 						<span class="glyphicon glyphicon-book"></span>

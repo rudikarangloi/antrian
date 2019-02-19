@@ -27,7 +27,7 @@
    
    
 	/*MYSQL SERVER*/
-	$result = $mysqli->query('UPDATE data_antrian SET status= 2 WHERE id='.$id.''); 
+	$result = $mysqli->query("UPDATE data_antrian SET status= 2,fs_kd_layanan='' WHERE id=".$id.""); 
 	if (!$result)
 		echo json_encode(array('status'=>0));
 	else

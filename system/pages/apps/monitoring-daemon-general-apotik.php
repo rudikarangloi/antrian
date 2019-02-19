@@ -10,7 +10,7 @@
 		$data['jumlah_loket'] = $loket['jumlah_loket']; // set jumlah loket
 		$client = $mysqli->query('SELECT client From client_antrian_apotik'); // execution
 		while ($cl = $client->fetch_array()) {
-			$rst = $mysqli->query('SELECT max(id) as id FROM data_antrian_apotik WHERE counter ='. $cl['client'] .' and status=2 '.$filter_waktu); // execution
+			$rst = $mysqli->query('SELECT max(nomor) as id FROM data_antrian_apotik WHERE counter ='. $cl['client'] .' and status=2 '.$filter_waktu); // execution
 			$row = $rst->fetch_array();
 			if ($row['id']==NULL) {
 				$id=0;
@@ -30,6 +30,12 @@
 		$count = $wait['count'];
 		if ($count){
 			//echo $count;
+			$rst = $mysqli->query("SELECT * FROM data_antrian_apotik WHERE status=1 AND (ISNULL(fs_kd_layanan) OR fs_kd_layanan='') ".$filter_waktu." ORDER BY waktu ASC LIMIT 1"); 
+			$brs = $rst->fetch_array();
+			if($brs['id']!=NULL)
+			{				
+				$mysqli->query("UPDATE data_antrian_apotik SET status= 0,fs_kd_layanan='1' WHERE id=". $brs['id'] .""); 	
+			}
 		}else{
 			$result = $mysqli->query('SELECT * FROM data_antrian_apotik WHERE status=0 '.$filter_waktu.' ORDER BY waktu ASC LIMIT 1'); // execution
 			$rows = $result->fetch_array();
@@ -44,7 +50,7 @@
 				$_SESSION["next_server"][$rows['counter']] = $rows['id'];
 				//$_SESSION["next_server"][$rows['counter']] = $rows['nomor'];
 				$_SESSION["counter_server"][$rows['counter']] = $rows['counter'];
-				$mysqli->query('UPDATE data_antrian_apotik SET status= 1 WHERE id='. $rows['id'] .''); // update to wait 1
+				$mysqli->query("UPDATE data_antrian_apotik SET status= 1,fs_kd_layanan='1' WHERE id=". $rows['id'] .""); // update to wait 1
 			}
 		}
 		echo json_encode($data);
