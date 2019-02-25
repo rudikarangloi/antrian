@@ -30,12 +30,19 @@
 		.nomor_loket h1{
 			font-size:14px;
 		}
+		
+		#init_max_queque {
+			
+			color:#FFF;
+			
+		}
 	</style>
   	<body>
     <div class="container">		
 		<button class="btn btn-small btn-primary goRepeat" type="button" style="float:left;padding:20px;">
             Panggil Ulang     
-        </button>		
+        </button>	
+				
     	<form>
     		<div style="background-color:#000000;"  class="jumbotron">
 								
@@ -54,6 +61,11 @@
 				<p id="peringatan">
 					Nomor Antrian Dalam Panggilan.
 				</p>
+				
+				
+				<h3 id="init_max_queque">
+					0
+				</h3>
 	      	</div>
     	</form>
     	<br/>
@@ -119,6 +131,16 @@
 				$(".next").html(data['next']);
 			},"json");
 		});
+		
+		
+		setInterval(function() {
+			$.post("../apps/monitoring-data.php", function( data ){
+				
+				$("#init_max_queque").html('Antrian ' + data["init_count_queque"] +' dari ' + data["init_max_queque"]);						
+			
+
+			}, "json"); 
+		}, 1000);
 
 	});
 	</script>
