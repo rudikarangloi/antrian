@@ -40,7 +40,7 @@
             Menu Utama <span class="glyphicon glyphicon-home"></span>    
         </button>
 		<button class="btn btn-small btn-primary goRepeat" type="button" style="float:right;padding:20px;">
-            Panggil Ulang     
+            Panggil Ulang  &nbsp;<span class="glyphicon glyphicon-volume-up"></span>    
         </button>
     	<form>
     		<div style="background-color:#000000;"  class="jumbotron">

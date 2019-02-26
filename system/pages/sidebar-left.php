@@ -63,7 +63,13 @@
                                         <i class="fa  fa-dashboard"></i> <span>Setting Teks</span>
                                     </a>
                                 </li>
-
+								
+								<li>
+                                    <a href="../retrieve/index.php">
+                                        <i class="fa  fa-dashboard"></i> <span>Retrieve Antiran</span>
+                                    </a>
+                                </li>
+								
                                 <li>
                                     <hr />
                                 </li>
@@ -79,6 +85,10 @@
                                         <i class="fa  fa-dashboard"></i> <span>Pemanggil Antrian Apotik</span>
                                     </a>
                                 </li>
+								
+								
+								
+								
 
                                
 

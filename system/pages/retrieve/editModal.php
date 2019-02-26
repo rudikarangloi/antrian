@@ -14,17 +14,14 @@ echo '<div id="editModal'.$row['id'].'" class="modal fade">
                     <div class="col-md-12">
                         <input type="hidden" value="'.$row['id'].'" name="hidden_id" id="hidden_id"/>
                         <div class="form-group">
-                            <label>Teks </label>
-                            <input name="txt_nomor" id="txt_nomor" class="form-control input-sm" type="text" value="'.$row['banner'].'" />
+                            <label>Nomor antrian </label>
+                            <input name="txt_nomor" id="txt_nomor" class="form-control input-sm" type="number" value="'.$row['nomor'].'" />
                         </div>
                         <div class="form-group">
                             <label>Keterangan</label>
                             <input name="txt_nama" id="txt_nama" class="form-control input-sm" type="text" value="'.$row['keterangan'].'" />
                         </div>
-                        <div class="form-group">
-                            <label>Status</label>
-                            <input name="txt_kelamin" id="txt_kelamin" class="form-control input-sm" type="text" value="'.$row['status'].'" />
-                        </div>			
+                        	
                     
                     </div>
                 </div>

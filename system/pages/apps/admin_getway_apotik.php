@@ -76,6 +76,7 @@
 				/*
 				Cek field id apakah status sedang dipanggil [status=1]
 				*/			
+				//------> Ambil id tertinggi dengan status = 0 atau status = 1. Tidak akan pernah terjadi jika data tidak nyangkut
 				$sqla = "SELECT id as count FROM data_antrian_apotik WHERE  (status = 0 OR status = 1) ". $sql_loket .$filter_waktu." ORDER BY id LIMIT 1";
 				$rsta = $mysqli->query($sqla);			
 				$rows = $rsta->fetch_array();
@@ -93,6 +94,8 @@
 					}
 				}else{
 					
+					$repeatId = $_POST['next_repeat'];
+					
 					/*Ambil nomor tertinggi*/
 					
 					
@@ -104,7 +107,7 @@
 						$rstCountId = $mysqli->query("SELECT MIN(nomor) as count FROM data_antrian_apotik WHERE STATUS = 3 ". $sql_loket.$filter_waktu." ORDER BY id ");
 					}
 					
-							$rowCountId = $rstCountId->fetch_array();
+					$rowCountId = $rstCountId->fetch_array();
 					if($rowCountId['count']>0){
 						$jmlCountId = (int)$rowCountId['count'] ;
 					}else{						
@@ -114,10 +117,26 @@
 					
 					if($model_antrian == 1){
 						//Jika nomor antrian per loket
-						$results = $mysqli->query('UPDATE data_antrian_apotik SET status=0,nomor = '.$jmlCountId.' WHERE id='.$id.'');
+						if($repeatId != 0){
+							//Ulangi panggilan
+							$sqlb = "UPDATE data_antrian_apotik SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId ".$sql_loket ;
+							$results = $mysqli->query($sqlb);
+							$jmlCountId = $repeatId;
+						}else{
+							$results = $mysqli->query('UPDATE data_antrian_apotik SET status=0,nomor = '.$jmlCountId.' WHERE id='.$id.'');
+						}
+						
 					}else{
 						//Jika nomor antrian Tidak per loket
-						$results = $mysqli->query('UPDATE data_antrian_apotik SET status=0 WHERE id='.$id.'');
+						if($repeatId != 0){
+							//Ulangi panggilan
+							$sqlb = "UPDATE data_antrian_apotik SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId ".$sql_loket ;
+							$results = $mysqli->query($sqlb);
+							$jmlCountId = $repeatId;
+						}else{							
+							$results = $mysqli->query('UPDATE data_antrian_apotik SET status=0 WHERE id='.$id.'');
+						}
+						
 					}
 				
 					
@@ -129,13 +148,26 @@
 				//Not insert
 				//Jika telah diakhir antrian, panggil nomor tertinggi yg memiliki status 2/telah dipanggil
 				//$results = $mysqli->query('INSERT INTO data_antrian_apotik (waktu,status) VALUES ("'.date("Y-m-d H:i:s").'",3)');
-				$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian_apotik WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");										
-                $rowCountId = $rstCountId->fetch_array();
-                    
-				if($rowCountId['count']>0){
-					$jmlCountId = (int)$rowCountId['count'] ;
-				}else{						
-					$jmlCountId = 1;						
+				
+				$repeatId = $_POST['next_repeat'];
+				
+				if($repeatId != 0){
+					
+					//Ulangi panggilan Jika diakhir antrian (Status = 2 semuanya)	
+					$sqlb = "UPDATE data_antrian_apotik SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId ". $sql_loket;
+					
+					$results = $mysqli->query($sqlb);
+					$jmlCountId = $repeatId;					
+					
+				}else{
+					$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian_apotik WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");										
+					$rowCountId = $rstCountId->fetch_array();
+						
+					if($rowCountId['count']>0){
+						$jmlCountId = (int)$rowCountId['count'] ;
+					}else{						
+						$jmlCountId = 1;						
+					}
 				}
 			}
 		    //echo json_encode( array('next'=> $jmlCountId) );
