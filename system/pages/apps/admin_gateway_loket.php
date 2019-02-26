@@ -69,6 +69,7 @@
     	if((isset($_POST['next_current']) || isset($_POST['next_repeat'])) && (($_POST['next_current'] != NULL) || ($_POST['next_repeat'] != NULL))){
     		$id = intval($_POST['next_current'])+1;  		
 
+			//------> Ambil id pertama dengan status=3
             $sql = "SELECT id as count FROM data_antrian WHERE  STATUS = 3 ". $sql_loket .$filter_waktu. " ORDER BY id LIMIT 1";
             //echo $sql.'<p>';
 			$rstClient = $mysqli->query($sql);			
@@ -79,7 +80,8 @@
 				
 				/*
 				Cek field id apakah status sedang dipanggil [status=1]
-				*/			
+				*/	
+				//------> Ambil id tertinggi dengan status = 0 atau status = 1. Tidak akan pernah terjadi jika data tidak nyangkut
                 $sqla = "SELECT id as count FROM data_antrian WHERE  (status = 0 OR status = 1) ". $sql_loket .$filter_waktu." ORDER BY id LIMIT 1";
 				//echo $sqla.'<p>';
               	$rsta = $mysqli->query($sqla);			
@@ -99,6 +101,8 @@
 					
 				}else{
 					
+					$repeatId = $_POST['next_repeat'];
+					
 					/*Ambil nomor tertinggi*/					
 					
 					if($model_antrian == 1){
@@ -106,6 +110,7 @@
 						$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");
 					}else{
 						//Jika nomor antrian Tidak per loket
+						//------> Ambil nomor terendah
 						$rstCountId = $mysqli->query("SELECT MIN(nomor) as count FROM data_antrian WHERE STATUS = 3 ". $sql_loket.$filter_waktu." ORDER BY id ");
                     }
                     
@@ -120,10 +125,27 @@
 					
 					if($model_antrian == 1){
 						//Jika nomor antrian per loket
-						$results = $mysqli->query('UPDATE data_antrian SET status=0,nomor = '.$jmlCountId.',loket = '.$dLoket.' WHERE id='.$id.'');
+						
+						if($repeatId != 0){
+							//Ulangi panggilan
+							$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId AND loket = $dLoket ";
+							$results = $mysqli->query($sqlb);
+							$jmlCountId = $repeatId;
+						}else{
+							$results = $mysqli->query('UPDATE data_antrian SET status=0,nomor = '.$jmlCountId.',loket = '.$dLoket.' WHERE id='.$id.'');
+						}
+						
 					}else{
 						//Jika nomor antrian Tidak per loket
-						$results = $mysqli->query('UPDATE data_antrian SET status=0,loket = '.$dLoket.' WHERE id='.$id.'');
+						
+						if($repeatId != 0){
+							//Ulangi panggilan
+							$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
+							$results = $mysqli->query($sqlb);
+							$jmlCountId = $repeatId;
+						}else{
+							$results = $mysqli->query('UPDATE data_antrian SET status=0,loket = '.$dLoket.' WHERE id='.$id.'');
+						}
 					}			
 					
 				}		
@@ -136,20 +158,19 @@
 				//$results = $mysqli->query('INSERT INTO data_antrian (waktu,status) VALUES ("'.date("Y-m-d H:i:s").'",3)');
 				
 				$repeatId = $_POST['next_repeat'];
-					
+									
 				if($repeatId != 0){
-					//$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
-					//$results = $mysqli->query($sqlb);
-					//echo $sqlb.'<p>';
-					//$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE nomor=$repeatId ". $sql_loket.$filter_waktu." ORDER BY id ");	
-					$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");	
-					$rowCountId = $rstCountId->fetch_array();
-						
-					if($rowCountId['count']>0){
-						$jmlCountId = (int)$rowCountId['count'] ;
-					}else{						
-						$jmlCountId = 1;						
+					
+					//Ulangi panggilan Jika diakhir antrian (Status = 2 semuanya)	
+					if($model_antrian == 1){
+						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId AND loket = $dLoket ";
+					}else{
+						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
 					}
+					
+					$results = $mysqli->query($sqlb);
+					$jmlCountId = $repeatId;					
+					
 				}else{
 				
 					$rstCountId = $mysqli->query("SELECT MAX(nomor) as count FROM data_antrian WHERE STATUS = 2 ". $sql_loket.$filter_waktu." ORDER BY id ");				

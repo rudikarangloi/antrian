@@ -93,8 +93,27 @@
                                 -->						
 							';							
                         }
+						
+						if($_SESSION['role'] == "Apotik"){
+                            echo '
+                                
+                                <li>                                   
+                                    <a href="../dashboard/dashboard.php?jenis=apotik">
+                                        <i class="fa  fa-dashboard"></i> <span>Admin Apotik</span>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../apotik/admin_panggilan_general_apotik.php" target="_blank">
+                                        <i class="fa  fa-dashboard"></i> <span>Pemanggil Antrian Apotik</span>
+                                    </a>
+                                </li>                              
 
-                        if($_SESSION['role'] != "Administrator"){
+				
+							';							
+                        }
+
+                        if($_SESSION['role'] == "User"){
                             echo '
                                 <li>
                                     <a href="../dashboard/dashboard.php">

@@ -1,6 +1,6 @@
 <?php
 
-require "connfile-php7.php";
+//require "connfile-php7.php";
 require "functionfile-php7.php";
 require "insertupdate-php7.php";
 

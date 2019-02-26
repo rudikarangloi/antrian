@@ -173,8 +173,8 @@
 			url: "../apps/last_stage_apotik.php",//request
 			data: data,
 			success: function(data) {
-				//$(".jumbotron h1").html(data["next"]);
-				$("#noAntrian").html(data["next"]);
+				$(".jumbotron h1").html(data["next"]);
+				//$("#noAntrian").html(data["next"]);
 				
 			}
 		});

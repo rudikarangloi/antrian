@@ -30,6 +30,9 @@
 		.nomor_loket h1{
 			font-size:14px;
 		}
+		#init_max_queque {			
+			color:#FFF;					
+		}
 	</style>
   	<body>
     <div class="container">
@@ -56,6 +59,10 @@
 				<p id="peringatan">
 					Nomor Antrian Dalam Panggilan.
 				</p>
+				<h3 id="init_max_queque">
+					0
+				</h3>
+				
 	      	</div>
     	</form>
     	<br/>
@@ -124,6 +131,15 @@
 		$(".goHome").click(function(){
 			window.location = "../dashboard/dashboard.php?jenis=apotik";  
 		});
+		
+		setInterval(function() {
+			$.post("../apps/monitoring-data-apotik.php", function( data ){
+				
+				$("#init_max_queque").html('Antrian teratas ' + data["init_max_queque"] +' dari ' + data["init_count_queque"]);						
+			
+
+			}, "json"); 
+		}, 1000);
 
 	});
 	</script>

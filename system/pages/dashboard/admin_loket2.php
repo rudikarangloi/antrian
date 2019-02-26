@@ -5,7 +5,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <meta name="description" content="">
 	    <meta name="author" content="">
-	    <title>Monitoring : Queue</title>
+	    <title>Monitoring : ANTRIAN</title>
 	    <link href="../assert/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="../assert/css/jumbotron-narrow-monitoring.css" rel="stylesheet">
 		<script src="../assert/js/jquery.min.js"></script>

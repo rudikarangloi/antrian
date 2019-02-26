@@ -307,8 +307,8 @@
                 url: "../apps/last_stage.php",//request
                 data: data,
                 success: function(data) {
-                    //$(".jumbotron h1").html(data["next"]);
-                    $("#noAntrian").html(data["next"]);
+                    $(".jumbotron h1").html(data["next"]);
+                    $("#no_urut").html(data["next"]);
                     
                 }
             });

@@ -40,9 +40,9 @@
   	<body>
     <div class="container">		
 		<button class="btn btn-small btn-primary goRepeat" type="button" style="float:left;padding:20px;">
-            Panggil Ulang     
+            Panggil Ulang  &nbsp;<span class="glyphicon glyphicon-volume-up"></span>   
         </button>	
-				
+						
     	<form>
     		<div style="background-color:#000000;"  class="jumbotron">
 								
@@ -136,7 +136,7 @@
 		setInterval(function() {
 			$.post("../apps/monitoring-data.php", function( data ){
 				
-				$("#init_max_queque").html('Antrian ' + data["init_count_queque"] +' dari ' + data["init_max_queque"]);						
+				$("#init_max_queque").html('Antrian teratas ' + data["init_max_queque"] +' dari ' + data["init_count_queque"]);						
 			
 
 			}, "json"); 

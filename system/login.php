@@ -52,8 +52,13 @@
                   //$_SESSION['role'] = "Administrator";
                   $_SESSION['role'] = $row['accounttype'];
                   $_SESSION['userid'] = $row['id'];
-                }    
-                header ('location: pages/dashboard/dashboard.php');
+                }   
+				if($_SESSION['role'] == 'Apotik'){
+					header ('location: pages/dashboard/dashboard.php?jenis=apotik');
+				}else{
+					header ('location: pages/dashboard/dashboard.php');
+				}
+               
             }              
             else
                 {
