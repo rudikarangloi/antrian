@@ -64,12 +64,7 @@
                                     </a>
                                 </li>
 								
-								<li>
-                                    <a href="../retrieve/index.php">
-                                        <i class="fa  fa-dashboard"></i> <span>Retrieve Antiran</span>
-                                    </a>
-                                </li>
-								
+																
                                 <li>
                                     <hr />
                                 </li>
@@ -86,11 +81,7 @@
                                     </a>
                                 </li>
 								
-								
-								
-								
-
-                               
+								                   
 
 
 
@@ -128,6 +119,27 @@
                                 <li>
                                     <a href="../dashboard/dashboard.php">
                                         <i class="fa  fa-dashboard"></i> <span>Dashboard</span>
+                                    </a>
+                                </li>
+                                
+                                                  
+                            
+                               						
+							';							
+                        }
+						
+						if($_SESSION['role'] == "Master"){
+                            echo '
+                                
+								<li>
+                                    <a href="../retrieve/index.php">
+                                        <i class="fa  fa-dashboard"></i> <span>Retrieve Antiran</span>
+                                    </a>
+                                </li>
+								
+								<li>
+                                    <a href="../retrieve_apotik/index.php">
+                                        <i class="fa  fa-dashboard"></i> <span>Retrieve Antiran Apotik</span>
                                     </a>
                                 </li>
                                 

@@ -192,7 +192,7 @@
 		}
 	}
 ?>
-
+<!-- =========  ADD retrieve  ============== -->
 <?php
 	if(isset($_POST['btn_add_retrieve'])){
 	    	$txt_nomor   = $_POST['txt_nomor'];
@@ -202,22 +202,56 @@
 		$chk = $mysqli->query("SELECT * from retrieve where nomor = '".$txt_nomor."'"); 
 		$ct = mysqli_num_rows($chk);
 
-		if($ct == 0){
+		//if($ct == 0){
 			$query = $mysqli->query("INSERT INTO retrieve (nomor,keterangan,status,waktu) 
 								values ('".$txt_nomor."','".$txt_nama."','".$txt_kelamin."','". date("Y-m-d H:i:s") ."')"); 
 								
-			$sql_retrieve = "UPDATE data_antrian SET STATUS=2 WHERE STATUS=3 AND nomor < ".$txt_nomor;
+			$sql_retrieve = "UPDATE data_antrian SET STATUS=2 WHERE STATUS=3 AND nomor < ".$txt_nomor." AND DATE(waktu) = CURDATE() ";
 			$query = $mysqli->query($sql_retrieve);
 			
 			if($query == true){
 	            $_SESSION['added'] = 1;
 	            header ("location: ".$_SERVER['REQUEST_URI']);
 			}
+		
+		/*}
+		else{
+			$_SESSION['duplicate'] = 1;
+            header ("location: ".$_SERVER['REQUEST_URI']);
+		}
+		*/
+	}
+?>
+
+
+<!-- =========  ADD retrieve Apotik  ============== -->
+<?php
+	if(isset($_POST['btn_add_retrieve_apotik'])){
+	    	$txt_nomor   = $_POST['txt_nomor'];
+	    	$txt_nama    = $_POST['txt_nama'];
+	    	$txt_kelamin = '1';	
+		
+		$chk = $mysqli->query("SELECT * from retrieve_apotik where nomor = '".$txt_nomor."'"); 
+		$ct = mysqli_num_rows($chk);
+
+		//if($ct == 0){
+			$query = $mysqli->query("INSERT INTO retrieve_apotik (nomor,keterangan,status,waktu) 
+								values ('".$txt_nomor."','".$txt_nama."','".$txt_kelamin."','". date("Y-m-d H:i:s") ."')"); 
+								
+			$sql_retrieve = "UPDATE data_antrian_apotik SET STATUS=2 WHERE STATUS=3 AND nomor < ".$txt_nomor." AND DATE(waktu) = CURDATE() ";
+			$query = $mysqli->query($sql_retrieve);
+			
+			if($query == true){
+	            $_SESSION['added'] = 1;
+	            header ("location: ".$_SERVER['REQUEST_URI']);
+			}
+		/*
 		}
 		else{
 			$_SESSION['duplicate'] = 1;
             header ("location: ".$_SERVER['REQUEST_URI']);
 		}
+		*/
 	}
 ?>
 

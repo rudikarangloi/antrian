@@ -5,7 +5,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <meta name="description" content="">
 	    <meta name="author" content="">
-	    <title>Monitoring : Queue</title>
+	    <title>Monitoring : Apotik</title>
 	    <link href="../assert/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="../assert/css/jumbotron-narrow-monitoring.css" rel="stylesheet">
 		<script src="../assert/js/jquery.min.js"></script>
@@ -98,6 +98,8 @@
 				}
 				if (tmp_loket==0) {
 					for (var i = 1; i<= data['jumlah_loket']; i++) {
+						
+						/*
 						loket = '<div class=col-md-'+dkolom+'>'+
 											'<div class="'+ i +
 											 ' jumbotron" style="padding-top:5px;padding-bottom:5px;">'+
@@ -106,6 +108,18 @@
 												'<font size=2>'+ gg[i-1] +'</font></button>'+
 											'</div>'+
 										'</div>';
+						*/
+						
+						loket = '<div class=col-md-'+dkolom+'>'+
+											'<div class="'+ i +
+											 ' jumbotron" style="padding-top:5px;padding-bottom:5px;">'+
+												'<h1> '+data["init_counter"][i]+' </h1>'+
+                                                '<font size=2>'+ 
+												'<button class="btn btn-primary" type="button">'+
+												gg[i-1] +'</button></font>'+
+											'</div>'+
+										'</div>';
+										
 						$(".loket").append(loket);
 					}
 

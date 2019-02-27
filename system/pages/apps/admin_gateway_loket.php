@@ -86,21 +86,19 @@
 				//echo $sqla.'<p>';
               	$rsta = $mysqli->query($sqla);			
 				$rows = $rsta->fetch_array();
-				if($rows['count']){
+				if($rows['count']){					
 					$jmlCountId = $_POST['next_current'];
 					$repeatId = $_POST['next_repeat'];
 					
-					if($repeatId != 0){
-						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=1 AND nomor=$repeatId;";
+					if($repeatId != 0){						
+						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=1 AND nomor=$repeatId;";						
 						$results = $mysqli->query($sqlb);
-						//echo $sqlb.'<p>';
-					}else{
-						//echo 'DO Nothing<p>';
+						$data['peringatan'] = 1;						
+					}else{				
 						$data['peringatan'] = 1;
 					}
 					
-				}else{
-					
+				}else{					
 					$repeatId = $_POST['next_repeat'];
 					
 					/*Ambil nomor tertinggi*/					
@@ -140,9 +138,18 @@
 						
 						if($repeatId != 0){
 							//Ulangi panggilan
-							$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
-							$results = $mysqli->query($sqlb);
-							$jmlCountId = $repeatId;
+							//Cek apakah ada status 0 atau 1
+							$sqlb = "SELECT id as count FROM data_antrian WHERE  (status = 0 OR status = 1) ". $sql_loket .$filter_waktu." ORDER BY id LIMIT 1";							
+							$rstb = $mysqli->query($sqlb);			
+							$rows_cek = $rstb->fetch_array();
+							if($rows_cek['count']){
+								$data['peringatan'] = 1;
+							}else{
+								$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
+								$results = $mysqli->query($sqlb);
+								$jmlCountId = $repeatId;
+							}								
+							
 						}else{
 							$results = $mysqli->query('UPDATE data_antrian SET status=0,loket = '.$dLoket.' WHERE id='.$id.'');
 						}
@@ -165,7 +172,16 @@
 					if($model_antrian == 1){
 						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId AND loket = $dLoket ";
 					}else{
-						$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
+						
+						//Cek apakah ada status 0 atau 1
+						$sqlb = "SELECT id as count FROM data_antrian WHERE  (status = 0 OR status = 1) ". $sql_loket .$filter_waktu." ORDER BY id LIMIT 1";							
+						$rstb = $mysqli->query($sqlb);			
+						$rows_cek = $rstb->fetch_array();
+						if($rows_cek['count']){
+							$data['peringatan'] = 1;
+						}else{
+							$sqlb = "UPDATE data_antrian SET STATUS=0 WHERE STATUS=2 AND nomor=$repeatId;";
+						}
 					}
 					
 					$results = $mysqli->query($sqlb);

@@ -9,6 +9,14 @@
 	    <link href="../assert/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="../assert/css/jumbotron-narrow-monitoring.css" rel="stylesheet">
 		<script src="../assert/js/jquery.min.js"></script>
+		
+		
+		<style>
+			h1 {			  
+			    font-family: "Arial Narrow";	
+							
+			}
+		</style>
 	</head>
   	<body>
     <div class="container">
@@ -109,9 +117,9 @@
 
                         loket = '<div class=col-md-'+dkolom+'>'+
 											'<div class="'+ i +
-											 ' jumbotron" style="padding-top:5px;padding-bottom:5px;">'+
-												'<h1> '+data["init_counter"][i]+' </h1>'+
-                                                '<font size=2>'+ 
+											 ' jumbotron" style="padding-top:5px;padding-left:0px;padding-right:0px;padding-bottom:5px;">'+
+												'<h1>'+data["init_counter"][i]+'</h1>'+
+                                                '<font size=5>'+ 
 												'<button class="btn btn-primary" type="button">'+
 												gg[i-1] +'</button></font>'+
 											'</div>'+
