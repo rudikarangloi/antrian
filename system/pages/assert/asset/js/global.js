@@ -147,6 +147,104 @@ function fCariBPJS(CrT,gVL,sCrt,sIdc,sKey)
 {
 	if (xmlHttp.readyState == 4 || xmlHttp.readyState == 0)
 	{
+		
+		/*if (document.getElementById('ffaskes').checked) {
+			gfaskes = 1;
+		}
+		else{
+			gfaskes = 0;
+		}
+		*/
+		gfaskes = 0;
+		xmlHttp.open("GET", "global.php?CrT="+CrT+"&gVL="+gVL+"&sCrt="+sCrt+"&sIdc="+sIdc+"&sKey="+sKey+"&gfaskes="+gfaskes, true);
+		xmlHttp.onreadystatechange = function(){handleServerResponseBPJS(CrT);}	
+		xmlHttp.send(null);
+	
+	}
+	else 
+	{
+		setTimeout('select()', 1000);
+	}
+}
+
+function handleServerResponseBPJS(CrT)
+{		
+
+	if (xmlHttp.readyState == 4)
+	{
+		if (xmlHttp.status == 200)
+		{
+			xmlResponse = xmlHttp.responseXML;
+			xmlRoot     = xmlResponse.documentElement;
+
+
+			if (CrT=='BpJK')
+			{			
+				
+				ArrBPJS = xmlRoot.getElementsByTagName("ArrBPJS");
+				var rCdE = ArrBPJS.item(0).firstChild.data;
+				console.log(rCdE);
+				var rMeS = ArrBPJS.item(1).firstChild.data;
+				document.getElementById('fBpJK').value= ArrBPJS.item(2).firstChild.data;
+				document.getElementById('fKtEP').value= ArrBPJS.item(3).firstChild.data;
+				
+				if (rCdE==200)
+				{
+					document.getElementById('fNmaB').value= ArrBPJS.item(4).firstChild.data;
+					document.getElementById('fStaK').value= ArrBPJS.item(5).firstChild.data;
+					document.getElementById('fStaD').value= ArrBPJS.item(6).firstChild.data;
+					document.getElementById('fKelK').value= ArrBPJS.item(7).firstChild.data;
+					document.getElementById('fKelD').value= ArrBPJS.item(8).firstChild.data;
+					document.getElementById('fJnpK').value= ArrBPJS.item(9).firstChild.data;
+					document.getElementById('fJnpD').value= ArrBPJS.item(10).firstChild.data;
+					document.getElementById('fFskK').value= ArrBPJS.item(11).firstChild.data;
+					document.getElementById('fFskD').value= ArrBPJS.item(12).firstChild.data;
+					
+					splits = ArrBPJS.item(13).firstChild.data.split("-", 3);
+					document.getElementById('fTgTA').value= splits[2]+'-'+splits[1]+'-'+splits[0];
+					splits = ArrBPJS.item(14).firstChild.data.split("-", 3);
+					document.getElementById('fTgTM').value= splits[2]+'-'+splits[1]+'-'+splits[0];
+					splits = ArrBPJS.item(15).firstChild.data.split("-", 3);
+					document.getElementById('fTgTC').value= splits[2]+'-'+splits[1]+'-'+splits[0];
+					
+					document.getElementById('fntlp').value= ArrBPJS.item(16).firstChild.data;
+					//PPK RUJUKAN AUTO
+					//document.getElementById('fRjPK').value= ArrBPJS.item(11).firstChild.data;
+					
+					//alert(ArrBPJS.item(15).firstChild.data);
+					//Auto display kelas
+					//kdKls = ArrBPJS.item(7).firstChild.data;
+					//fCariGLOBAL('KlSK',kdKls);
+					
+				}
+				else
+				{
+					
+					document.getElementById('fNmaB').value= "";
+					document.getElementById('fStaK').value= "";
+					document.getElementById('fStaD').value= "NON AKTIF";
+					document.getElementById('fKelK').value= "";
+					document.getElementById('fKelD').value= "";
+					document.getElementById('fJnpK').value= "";
+					document.getElementById('fJnpD').value= "";
+					document.getElementById('fFskK').value= "";
+					document.getElementById('fFskD').value= "";
+					document.getElementById('fTgTA').value= "";
+					document.getElementById('fTgTM').value= "";
+					document.getElementById('fTgTC').value= "";
+				}
+				//alert(ArrBPJS.item(15).firstChild.data);
+				$("#loadingImg").hide();
+				display_data();
+			}
+		}
+	}
+}
+
+function fCariBPJS_old(CrT,gVL,sCrt,sIdc,sKey)
+{
+	if (xmlHttp.readyState == 4 || xmlHttp.readyState == 0)
+	{
 		xmlHttp.open("GET", "global.php?CrT="+CrT+"&gVL="+gVL+"&sCrt="+sCrt+"&sIdc="+sIdc+"&sKey="+sKey, true);
 		xmlHttp.onreadystatechange = function(){
 			handleServerResponseBPJS(CrT);
@@ -159,7 +257,7 @@ function fCariBPJS(CrT,gVL,sCrt,sIdc,sKey)
 	}
 }
 
-function handleServerResponseBPJS(CrT)
+function handleServerResponseBPJS_old(CrT)
 {
 	if (xmlHttp.readyState == 4)
 	{
@@ -200,6 +298,7 @@ function handleServerResponseBPJS(CrT)
 			{
 				ArrBPJS = xmlRoot.getElementsByTagName("ArrBPJS");
 				var rCdE = ArrBPJS.item(0).firstChild.data;
+				console.log(rCdE);
 				var rMeS = ArrBPJS.item(1).firstChild.data;
 				document.getElementById('fBpJK').value= ArrBPJS.item(2).firstChild.data;
 				document.getElementById('fKtEP').value= ArrBPJS.item(3).firstChild.data;

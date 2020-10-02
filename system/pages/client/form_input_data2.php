@@ -24,12 +24,17 @@ extract($_POST);
 
 //Mysql
 //------
-$NM_PASIEN= '-';
-$ALM_PASIEN= '-';
-$TLP_PASIEN= '-';
-$KOTA_PASIEN= '-';
-$JNS_KELAMIN=  '-';
 
+
+$FS_MR= $FS_MR;						
+$NM_PASIEN= $NM_PASIEN;
+$ALM_PASIEN= $ALM_PASIEN;
+$TLP_PASIEN= $TLP_PASIEN;
+$KOTA_PASIEN= $KOTA_PASIEN;
+$JNS_KELAMIN=  '';
+$FS_KD_IDENTITAS=  $FS_KD_IDENTITAS;
+
+/*
 $sql = "SELECT FS_NM_PASIEN AS FldD FROM tc_mr WHERE FS_MR = '". $input_data ."'";
 $rstClient = $mysqli->query($sql);			
 $rowClient = $rstClient->fetch_array();
@@ -70,6 +75,14 @@ if($JNS_KELAMIN=='0'){
 }else{
 	$JNS_KELAMIN="PEREMPUAN";
 }
+
+$sql = "SELECT FS_KD_IDENTITAS AS FldD FROM tc_mr WHERE FS_MR = '". $input_data ."'";
+$rstClient = $mysqli->query($sql);			
+$rowClient = $rstClient->fetch_array();
+if($rowClient['FldD']){
+	$FS_KD_IDENTITAS= $rowClient['FldD'];
+} 
+*/
 ?>
 
 
@@ -87,7 +100,7 @@ if($JNS_KELAMIN=='0'){
 						<td width="1%">&nbsp;</td>
 						<td width="13%"></td>
 						<td width="1%"></td>
-						<td width="30%"><?php //echo $input_data;?></td>
+						<td width="30%"><?php //echo $input_data. " -> ". $radCaraBayar;?></td>
 						<td width="1%">&nbsp;</td>
 						<td width="20%"></td>
 						<td width="1%"></td>
@@ -98,7 +111,7 @@ if($JNS_KELAMIN=='0'){
 						<td width="1%">&nbsp;</td>
 						<td width="13%">No.Rekam Medis</td>
 						<td width="1%">:</td>
-						<td width="30%"><?php echo $input_data;?></td>
+						<td width="30%"><?php echo $FS_MR;?></td>
 						<td width="1%">&nbsp;</td>
 						<td width="20%">Alamat</td>
 						<td width="1%">:</td>
@@ -122,9 +135,9 @@ if($JNS_KELAMIN=='0'){
 						<td width="1%">:</td>
 						<td width="30%"><?php echo $TLP_PASIEN;?></td>
 						<td width="1%">&nbsp;</td>
-						<td width="20%">Jenis Kelamin</td>
-						<td width="1%">:</td>
-						<td width="29%"><?php echo $JNS_KELAMIN;?>&nbsp;</td>
+						<td width="20%"></td>
+						<td width="1%"></td>
+						<td width="29%">&nbsp;</td>
 						<td width="1%">&nbsp;</td>
 					</tr>
 
@@ -158,9 +171,22 @@ if($JNS_KELAMIN=='0'){
 						<td width="1%">&nbsp;</td>
 						<td width="92%" colspan="7">
 
-						<form name = "myfrm" id="myfrm" class="form-tied margin-00" action="form_input_data_mysql_.php" method="post">
-																			
+						<form name = "myfrm" id="myfrm" class="form-tied margin-00" action="form_input_data_mysql_.php" method="post">																		
+							
+							
+							<input type="hidden" name="fAlamat" id="fAlamat"  value="<?php echo $ALM_PASIEN;?>"  />
+							<input type="hidden" name="fNama" id="fNama"  value="<?php echo $NM_PASIEN;?>"  />
+							<input type="hidden" name="fKota" id="fKota"  value="<?php echo $KOTA_PASIEN;?>"  />
+							<input type="hidden" name="fNik" id="fNik"  value="<?php echo $FS_KD_IDENTITAS;?>"  />
+							
 							<input type="hidden" name="fNoRM" id="fNoRM"  value="<?php echo $input_data;?>"  />
+							<input type="hidden" name="FS_MR" id="FS_MR"  value="<?php echo $FS_MR;?>"  />
+							<input type="hidden" name="NM_PASIEN" id="NM_PASIEN"  value="<?php echo $NM_PASIEN;?>"  />
+							<input type="hidden" name="ALM_PASIEN" id="ALM_PASIEN"  value="<?php echo $ALM_PASIEN;?>"  />
+							<input type="hidden" name="TLP_PASIEN" id="TLP_PASIEN"  value="<?php echo $TLP_PASIEN;?>"  />
+							<input type="hidden" name="KOTA_PASIEN" id="KOTA_PASIEN"  value="<?php echo $KOTA_PASIEN;?>"  />
+							<input type="hidden" name="FS_KD_IDENTITAS" id="FS_KD_IDENTITAS"  value="<?php echo $FS_KD_IDENTITAS;?>"  />
+													
 
 							<input type="hidden" name="input_data" id="input_data"  value="<?php echo $input_data;?>"  />
 
@@ -214,8 +240,8 @@ if($JNS_KELAMIN=='0'){
 																	<!--
 																	<input type="hidden" name="loket<?php echo $gKd;?>" value="<?php echo $loket;?>">	
 																	-->							
-																	<input id="fLaYK<?php echo $gKd;?>" type="radio" name="fLaYK" class='rg' value="<?php echo $gKd;?>">	
-																		<label for="fLaYK<?php echo $gKd;?>"><span><span></span></span><?php echo $gNm;?></label>																		
+																	<input id="fLaYK<?php echo $gKd;?>" type="radio" name="fLaYK" class='rg' value="<?php echo $gKd;?>">																	
+																	<label for="fLaYK<?php echo $gKd;?>"><span><span></span></span><?php echo $gNm;?></label>																		
 																</td>								
 															</tr>
 															

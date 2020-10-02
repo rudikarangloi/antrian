@@ -8,7 +8,7 @@
 		include "mysql_connect.php";
 		$data = array();
 		$date = date("Y-m-d");
-		
+		$filter_jenis_antrian = " AND jenis_antrian_poliklinik <> '0' ";
 		
 		/*SQL SERVER*/
 		/*
@@ -96,7 +96,7 @@
 			
 			//## 3. Ambil id tertinggi berdasar counter dan status=2 [status 2 = client yg sudah selesai ditangani]
 			//$rst = $mysqli->query('SELECT max(id) as id FROM data_antrian WHERE counter ='. $cl['client'] .' and status=2'); 
-			$rst = $mysqli->query('SELECT max(nomor) as id FROM data_antrian WHERE counter ='. $cl['client'] .' and status=2 '.$filter_waktu); // execution
+			$rst = $mysqli->query('SELECT max(nomor) as id FROM data_antrian WHERE counter ='. $cl['client'] .' and status=2 '. $filter_waktu . $filter_jenis_antrian); // execution
 			$row = $rst->fetch_array();
 			if ($row['id']==NULL) {
 				$id=0;
@@ -129,14 +129,14 @@
 		*/
 		
 		//## 4. Cari banyak data di tabel data_antrian yg status = 1 [Tidak pernah ada]
-		$result_wait = $mysqli->query('SELECT count(*) as count FROM data_antrian WHERE status=1 '.$filter_waktu); // wait 1
+		$result_wait = $mysqli->query('SELECT count(*) as count FROM data_antrian WHERE status=1 '. $filter_waktu . $filter_jenis_antrian); // wait 1
 		$wait = $result_wait->fetch_array();
 		$count = $wait['count'];
 		if ($count){
 			//echo $count;
 		}else{
 			//# 5. cari data di tabel data_antrian yang status=0 [Klik dari Kasir / Admin]
-			$result = $mysqli->query('SELECT * FROM data_antrian WHERE status=0 '.$filter_waktu.' ORDER BY waktu ASC LIMIT 1'); // execution
+			$result = $mysqli->query('SELECT * FROM data_antrian WHERE status=0 '. $filter_waktu . $filter_jenis_antrian . ' ORDER BY waktu ASC LIMIT 1'); // execution
 			$rows = $result->fetch_array();
 			if($rows['id']!=NULL)
 			{

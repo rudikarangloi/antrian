@@ -41,23 +41,36 @@
                                             <tr>
                                                 <th style="width: 20px !important;"><input type="checkbox" name="chk_delete[]" class="cbxMain" onchange="checkMain(this)" /></th>
                                                 <th>Nomor</th>
-                                                <th>Nama Poli</th>
-                                                <th>kode</th>												
+                                                <th>Nama</th>
+                                                <th>Kode Layanan</th>
+												<th>Kuota Online</th>
+												<th>Dokter</th>
+												<th>Status</th>
+																						
                                                 <th style="width: 40px !important;">Option</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php
-                                            
-											$squery = $mysqli->query("select * from client_antrian"); 
+                                            $chek_aktif = '';
+											$chek_non_aktif = '';
+											$squery = $mysqli->query("select * from client_antrian "); 
 											while($row = mysqli_fetch_array($squery))
                                             {
-                                                echo '
+                                                if($row['status'] == 1){
+													$strStatus = 'Aktif';
+												}else{
+													$strStatus = 'Non Aktif';
+												}
+												echo '
                                                 <tr>
                                                     <td><input type="checkbox" name="chk_delete[]" class="chk_delete" value="'.$row['id'].'" /></td>
                                                     <td>'.$row['client'].'</td>
                                                     <td>'.$row['description'].'</td>
-                                                    <td>'.$row['kode_layanan'].'</td>													
+                                                    <td>'.$row['kode_layanan'].'</td>	
+													<td>'.$row['kuota_hp'].'</td>	
+													<td>'.$row['dokter'].'</td>
+													<td>'.$strStatus.'</td>														
                                                     <td><button class="btn btn-primary btn-sm" data-target="#editModal'.$row['id'].'" data-toggle="modal"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></td>
                                                 </tr>
                                                 ';

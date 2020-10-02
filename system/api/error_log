@@ -1,0 +1,1032 @@
+[03-Nov-2018 02:15:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 02:15:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 02:15:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 02:15:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 02:15:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:30 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:30 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:34 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:03:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 03:03:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:03:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:02 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:02 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:02 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:02 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 03:06:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:29 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 03:06:35 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:35 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:39 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 03:06:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 03:06:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 11:45:45 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 11:45:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[03-Nov-2018 11:45:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[03-Nov-2018 11:47:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 11:47:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[03-Nov-2018 11:47:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[03-Nov-2018 11:49:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 11:49:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[03-Nov-2018 11:49:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[03-Nov-2018 11:50:06 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 11:50:06 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: Password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 20
+[03-Nov-2018 11:51:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:00:30 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:00:30 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[03-Nov-2018 12:00:30 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userID in /home/ptsdico1/public_html/data-polisi/api/login.php on line 51
+[03-Nov-2018 12:02:58 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:02:58 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[03-Nov-2018 12:02:58 Asia/Krasnoyarsk] PHP Notice:  Use of undefined constant userID - assumed 'userID' in /home/ptsdico1/public_html/data-polisi/api/login.php on line 51
+[03-Nov-2018 12:02:58 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userID in /home/ptsdico1/public_html/data-polisi/api/login.php on line 51
+[03-Nov-2018 12:04:57 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:04:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[03-Nov-2018 12:04:57 Asia/Krasnoyarsk] PHP Notice:  Trying to get property of non-object in /home/ptsdico1/public_html/data-polisi/api/login.php on line 51
+[03-Nov-2018 12:05:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:05:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[03-Nov-2018 12:47:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:47:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:47:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:47:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:48:42 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:42 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:42 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:43 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:43 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:43 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:48:43 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:48:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:48:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:48:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:49:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:49:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:49:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:49:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:50:00 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:50:00 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:50:00 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:50:00 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:51:11 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:51:11 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:51:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:51:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:51:52 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:51:52 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 12:51:57 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:51:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:52:02 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:52:02 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 12:52:09 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:52:10 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:52:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:52:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:52:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 12:53:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:53:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:53:13 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:53:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:53:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:53:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:18 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:18 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:32 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:32 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 12:54:34 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 12:54:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 12:54:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:10:46 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:11:10 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:11:32 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:23:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:32:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:32:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:32:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:32:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:41:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:41:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:41:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 13:41:31 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:31 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:41:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 13:41:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:39 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:41:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:41:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:42:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:42:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:42:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:42:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:34 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:39 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:43:40 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:43:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 13:44:06 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:44:06 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:52:34 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:52:34 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:52:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:52:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:53:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:53:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:53:58 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:53:58 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:54:03 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:54:03 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:54:09 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:54:09 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:54:09 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:54:09 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:54:09 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:54:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:54:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:54:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:54:42 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:54:42 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:56:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:56:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:56:50 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:56:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Nov-2018 13:57:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:57:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 13:57:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 13:57:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 14:45:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 14:45:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 14:45:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 14:45:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 15:06:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 15:06:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 15:06:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 15:06:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Nov-2018 15:15:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Nov-2018 15:15:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 00:21:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 00:21:13 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 00:54:11 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 00:54:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 00:59:02 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 00:59:02 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:15:05 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:15:05 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:15:21 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:15:54 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:16:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:17:00 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:19:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:19:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:25:49 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:26:00 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:26:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:26:22 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:27:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:28:26 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:28:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:28:49 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:30:29 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:30:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:35:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:35:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[04-Nov-2018 01:35:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[04-Nov-2018 01:38:26 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:38:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:38:26 Asia/Krasnoyarsk] PHP Fatal error:  Call to undefined method mysqli_result::row() in /home/ptsdico1/public_html/data-polisi/api/login.php on line 47
+[04-Nov-2018 01:38:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:38:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:38:55 Asia/Krasnoyarsk] PHP Fatal error:  Call to undefined method mysqli_result::row() in /home/ptsdico1/public_html/data-polisi/api/login.php on line 47
+[04-Nov-2018 01:39:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:39:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 43
+[04-Nov-2018 01:43:00 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:43:00 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 38
+[04-Nov-2018 01:44:23 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:44:24 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected ')' in /home/ptsdico1/public_html/data-polisi/api/login.php on line 38
+[04-Nov-2018 01:44:53 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:44:53 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 38
+[04-Nov-2018 01:46:06 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:46:06 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 45
+[04-Nov-2018 01:47:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:47:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 45
+[04-Nov-2018 01:47:08 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 52
+[04-Nov-2018 01:49:23 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:49:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 01:49:23 Asia/Krasnoyarsk] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ptsdico1'@'localhost' (using password: NO) in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 01:49:23 Asia/Krasnoyarsk] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 01:49:23 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 56
+[04-Nov-2018 01:49:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:49:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 01:49:47 Asia/Krasnoyarsk] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'ptsdico1'@'localhost' (using password: NO) in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 01:49:47 Asia/Krasnoyarsk] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 01:49:47 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 56
+[04-Nov-2018 01:56:50 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:56:50 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 01:58:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 01:58:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:02:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:02:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:03:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:03:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:03:53 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:03:53 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:05:14 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:05:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:08:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:08:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:09:31 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:09:31 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/ptsdico1/public_html/data-polisi/api/login.php on line 44
+[04-Nov-2018 02:10:22 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:10:22 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:15:58 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:15:58 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:15:58 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 53
+[04-Nov-2018 02:16:42 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:16:42 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:16:42 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/ptsdico1/public_html/data-polisi/api/login.php on line 53
+[04-Nov-2018 02:22:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:22:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:22:07 Asia/Krasnoyarsk] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/ptsdico1/public_html/data-polisi/api/login.php on line 54
+[04-Nov-2018 02:30:03 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:30:04 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '=' in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 02:30:48 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:30:48 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '=' in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 02:31:01 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:31:02 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/ptsdico1/public_html/data-polisi/api/login.php on line 55
+[04-Nov-2018 02:31:14 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:31:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:32:49 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:32:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:32:49 Asia/Krasnoyarsk] PHP Fatal error:  Call to a member function row() on a non-object in /home/ptsdico1/public_html/data-polisi/api/login.php on line 54
+[04-Nov-2018 02:33:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:33:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:34:04 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:34:05 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/ptsdico1/public_html/data-polisi/api/login.php on line 44
+[04-Nov-2018 02:34:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:34:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:37:48 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:37:48 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:37:48 Asia/Krasnoyarsk] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, string given in /home/ptsdico1/public_html/data-polisi/api/login.php on line 53
+[04-Nov-2018 02:37:48 Asia/Krasnoyarsk] PHP Notice:  Undefined variable: datas in /home/ptsdico1/public_html/data-polisi/api/login.php on line 59
+[04-Nov-2018 02:38:05 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:38:05 Asia/Krasnoyarsk] PHP Fatal error:  Cannot use [] for reading in /home/ptsdico1/public_html/data-polisi/api/login.php on line 59
+[04-Nov-2018 02:38:29 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:38:29 Asia/Krasnoyarsk] PHP Fatal error:  Cannot use [] for reading in /home/ptsdico1/public_html/data-polisi/api/login.php on line 47
+[04-Nov-2018 02:39:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:39:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 47
+[04-Nov-2018 02:40:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:40:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 47
+[04-Nov-2018 02:40:16 Asia/Krasnoyarsk] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ptsdico1/public_html/data-polisi/api/login.php on line 49
+[04-Nov-2018 02:51:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:51:34 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '}' in /home/ptsdico1/public_html/data-polisi/api/login.php on line 50
+[04-Nov-2018 02:51:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:51:56 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected '}' in /home/ptsdico1/public_html/data-polisi/api/login.php on line 50
+[04-Nov-2018 02:52:10 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:52:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 48
+[04-Nov-2018 02:52:45 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:52:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 02:53:26 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:55:45 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:55:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 02:56:03 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:56:03 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:56:03 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:56:03 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:56:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:56:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:56:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:56:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:59:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:59:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:59:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:59:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:59:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:59:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 02:59:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 02:59:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 05:41:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 05:41:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 05:41:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 05:41:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:49:04 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:49:04 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:49:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:49:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:55:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:55:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:55:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 09:55:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:55:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:55:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:55:40 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:55:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:55:40 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:55:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:03 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:04 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 09:56:04 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:04 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:04 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:04 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:10 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:11 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:13 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 09:56:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 09:56:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:22:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:22:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:22:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 10:22:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:22:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:22:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:22:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:23:00 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:00 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:23:02 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:03 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:23:03 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:03 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:23:04 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:04 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:23:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 10:23:25 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 10:23:29 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:23:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 10:27:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 10:27:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 12:09:01 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:09:01 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 12:09:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:09:38 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ptsdico1/public_html/data-polisi/api/spinner_job_name.php on line 20
+[04-Nov-2018 12:09:46 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:09:46 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ptsdico1/public_html/data-polisi/api/spinner_job_name.php on line 20
+[04-Nov-2018 12:10:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:10:13 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ptsdico1/public_html/data-polisi/api/spinner_job_name.php on line 20
+[04-Nov-2018 12:10:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:10:17 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ptsdico1/public_html/data-polisi/api/spinner_job_name.php on line 20
+[04-Nov-2018 12:10:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:10:39 Asia/Krasnoyarsk] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ptsdico1/public_html/data-polisi/api/spinner_job_name.php on line 20
+[04-Nov-2018 12:13:29 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:13:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:13:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 12:18:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:22:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:23:10 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:23:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:25:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:26:25 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 12:26:34 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[04-Nov-2018 15:15:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 15:15:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 15:15:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 15:15:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:50 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 15:15:51 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:51 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:15:52 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 15:18:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:18:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:18:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 15:18:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:18:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 15:18:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:18:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:18:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 15:57:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:57:45 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 15:58:50 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:36:53 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:36:53 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:36:54 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:36:54 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:36:56 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:36:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 16:44:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:44:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:44:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:44:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:45:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:45:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:45:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:45:13 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:45:24 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:45:24 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:45:24 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:45:24 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:47:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:47:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:47:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:47:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:50:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:50:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:50:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:50:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:52:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:52:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 16:52:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 16:52:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:03:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:03:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:03:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:03:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:03:52 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:03:52 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:03:53 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:03:53 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:05:49 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:05:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:05:50 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:05:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:06:31 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:06:32 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:06:32 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:06:32 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:06:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:06:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:06:45 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:06:46 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:06:50 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:06:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:12:06 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:06 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:12:06 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:06 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:12:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:07 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:12:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:12:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:12:19 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:12:19 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:26:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:26:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:26:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:36 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:26:40 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:26:40 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:26:47 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:26:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:28:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:28:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:28:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:28:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:28:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:28:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:28:28 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:28:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:28:30 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:28:30 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:28:43 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:32:14 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:32:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:32:14 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:32:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:32:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:32:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[04-Nov-2018 17:32:20 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:32:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[04-Nov-2018 17:32:21 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[04-Nov-2018 17:32:22 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[05-Nov-2018 12:25:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:25:08 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:25:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Nov-2018 12:25:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Nov-2018 12:44:58 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:44:58 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Nov-2018 12:46:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:46:41 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:46:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[05-Nov-2018 12:46:43 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:46:43 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[05-Nov-2018 12:46:43 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Nov-2018 12:46:43 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[06-Nov-2018 13:28:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[06-Nov-2018 13:28:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[06-Nov-2018 13:28:17 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[06-Nov-2018 13:28:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[06-Nov-2018 13:28:21 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[06-Nov-2018 13:28:21 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[06-Nov-2018 13:28:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[07-Nov-2018 21:49:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 21:49:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 21:49:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 21:49:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 21:49:23 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 21:49:23 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 21:49:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[07-Nov-2018 23:10:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 23:10:15 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 23:10:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 23:10:15 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 23:10:26 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 23:10:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 23:10:30 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 23:10:30 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 23:10:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 23:10:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[07-Nov-2018 23:10:33 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[07-Nov-2018 23:10:33 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Nov-2018 16:58:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Nov-2018 16:58:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Nov-2018 16:58:55 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Nov-2018 16:58:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Nov-2018 16:58:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Nov-2018 16:58:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[09-Nov-2018 22:34:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[09-Nov-2018 22:34:39 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[09-Nov-2018 22:34:39 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[09-Nov-2018 22:34:39 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[13-Nov-2018 18:02:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[13-Nov-2018 18:02:37 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[13-Nov-2018 18:02:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[13-Nov-2018 18:02:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[16-Nov-2018 19:30:49 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[16-Nov-2018 19:30:49 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[16-Nov-2018 19:30:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[16-Nov-2018 19:30:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:14 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:14 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:21 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:22 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:22 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:23 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:23 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Nov-2018 12:46:25 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[27-Nov-2018 12:46:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Nov-2018 11:55:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[30-Nov-2018 11:55:13 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[30-Nov-2018 11:55:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Nov-2018 11:55:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[21-Dec-2018 11:27:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[21-Dec-2018 11:27:44 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[21-Dec-2018 11:27:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[21-Dec-2018 11:27:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[31-Dec-2018 08:02:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[31-Dec-2018 08:02:38 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[31-Dec-2018 08:02:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[31-Dec-2018 08:02:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Jan-2019 22:18:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Jan-2019 22:18:27 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[03-Jan-2019 22:18:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Jan-2019 22:18:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Feb-2019 14:32:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:32:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Feb-2019 14:32:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:32:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Feb-2019 14:33:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:33:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:33:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[08-Feb-2019 14:33:16 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:33:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Feb-2019 14:33:48 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:33:48 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[08-Feb-2019 14:34:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:34:12 Asia/Krasnoyarsk] PHP Warning:  Module 'mysql' already loaded in Unknown on line 0
+[08-Feb-2019 14:34:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:47 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:47 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:56 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:56 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:56 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:14:58 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Mar-2019 10:15:16 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[03-Mar-2019 10:15:22 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[06-Mar-2019 20:43:05 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[06-Mar-2019 20:43:05 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[06-Mar-2019 20:43:23 Asia/Jakarta] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[06-Mar-2019 20:43:23 Asia/Jakarta] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[06-Mar-2019 20:44:16 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[06-Mar-2019 20:44:16 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[06-Mar-2019 20:44:30 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/hapus_data.php on line 3
+[06-Mar-2019 20:44:34 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[06-Mar-2019 20:44:34 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 13:36:40 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[08-Mar-2019 13:36:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:02:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:03:24 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:48:30 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:52:38 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:54:00 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:54:33 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:54:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 15:54:46 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 16:05:15 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:39:41 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:39:41 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:39:48 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:39:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:39:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:39:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:40:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:40:08 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:40:08 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:40:10 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:43:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:43:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:43:47 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:43:49 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:43:49 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 19:43:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:12:49 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:12:49 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:13:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:13:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:13:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:13:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Mar-2019 20:13:12 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:08:48 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:08:48 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:08:48 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:08:48 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:08:52 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:08:54 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:08:59 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:09:01 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:12:24 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:12:24 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:12:26 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:12:31 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:12:38 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:13:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:13:09 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:13:36 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:13:41 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:13:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:14:15 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:14:21 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 01:14:25 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:14:33 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 01:14:35 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 08:47:42 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 08:47:42 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 08:48:15 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 08:48:16 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:57:03 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:57:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:57:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:57:23 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:57:39 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 09:57:57 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:58:25 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:14 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 09:59:19 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:22 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:24 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:25 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:25 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:27 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 09:59:36 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:21:34 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:21:35 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:21:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:22:41 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:22:46 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:23:39 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:23:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:24:03 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:26:46 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:26:46 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:26:48 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:27:11 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:27:11 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:27:17 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:05 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:19 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:20 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:22 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:34 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:34 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:35:59 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:36:00 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:36:02 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:43:42 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:43:42 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:43:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:43:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:43:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:43:59 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:47:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:47:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:47:06 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:47:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:47:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 10:47:55 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 12:36:46 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 12:36:46 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 12:37:00 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 14:53:20 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 14:53:20 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 14:53:26 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:18:55 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:18:56 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:18:58 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:20:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:20:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:20:42 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:21:43 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:21:43 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:21:45 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:36:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:36:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:36:39 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:38:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:39:15 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:39:39 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:39:43 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:39:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:39:52 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 15:39:54 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:40:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:40:12 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:40:16 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:49:08 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:49:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:49:12 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:51:48 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:51:49 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 15:51:54 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:10:10 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:10:11 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:10:23 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:10:36 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:10:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:42:19 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:42:19 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:42:30 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 16:52:23 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:00:00 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:00:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:00:11 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:00:35 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:00:36 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:00:37 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 17:29:01 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:29:02 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:29:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:29:14 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:29:21 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 17:29:30 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:24:39 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:24:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:13 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:13 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:18 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:20 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[10-Mar-2019 19:26:22 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:31 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:55 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:58 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:26:58 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:41 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:45 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:48 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:43:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:50:16 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:50:16 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:50:20 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:50:26 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:50:29 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:47 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:47 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:49 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:51:56 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:52:00 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:52:06 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:52:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:52:12 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:52:14 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[10-Mar-2019 19:52:14 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:18:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:18:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:18:53 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:18:57 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:01 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:01 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:03 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:07 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:09 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:13 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 06:19:18 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 08:44:58 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 08:44:58 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 08:45:02 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:25:01 Asia/Jakarta] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[11-Mar-2019 12:28:30 Asia/Jakarta] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[11-Mar-2019 12:34:43 Asia/Jakarta] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[11-Mar-2019 12:46:09 Asia/Jakarta] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[11-Mar-2019 12:46:24 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:24 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:30 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:32 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:32 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:33 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:33 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:36 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:37 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:40 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:46:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 12:59:55 Asia/Jakarta] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[11-Mar-2019 13:03:29 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 13:03:29 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 14:15:41 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 14:15:41 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 14:15:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 14:16:01 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 14:16:02 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[11-Mar-2019 14:16:05 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 20:51:07 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 20:51:07 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[11-Mar-2019 20:51:19 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[13-Mar-2019 15:56:23 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[13-Mar-2019 15:56:23 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[13-Mar-2019 15:56:44 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Mar-2019 10:04:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Mar-2019 10:04:04 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Mar-2019 10:04:14 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Apr-2019 18:07:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Apr-2019 18:07:52 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[03-Apr-2019 18:07:55 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[21-Apr-2019 03:16:48 UTC] PHP Fatal error:  Call to undefined function mysqli_connect() in /home/ptsdico1/public_html/data-polisi/api/connect.php on line 8
+[21-Apr-2019 10:16:50 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Apr-2019 14:41:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Apr-2019 14:41:51 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Apr-2019 14:41:54 Asia/Jakarta] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[23-Apr-2019 14:41:57 Asia/Jakarta] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:15:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:15:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:16:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:16:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:16:22 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:16:29 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:16:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:03 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:05 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[24-Apr-2019 14:17:08 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:12 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:23 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:27 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[24-Apr-2019 14:17:35 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[25-Apr-2019 08:51:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[25-Apr-2019 08:51:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[25-Apr-2019 08:54:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[25-Apr-2019 08:54:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[25-Apr-2019 08:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 08:54:59 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 08:58:00 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 08:58:06 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 08:58:10 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[25-Apr-2019 08:58:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 08:58:13 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 08:58:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 09:45:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 09:45:21 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 09:45:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 09:45:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 09:45:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:46:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:46:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:46:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:46:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:46:44 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:46:47 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[25-Apr-2019 10:47:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 10:47:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 21:10:53 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[25-Apr-2019 21:10:53 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[26-Apr-2019 08:21:35 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[26-Apr-2019 08:21:35 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[26-Apr-2019 10:20:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: userName in /home/ptsdico1/public_html/data-polisi/api/login.php on line 7
+[26-Apr-2019 10:20:50 Asia/Krasnoyarsk] PHP Notice:  Undefined index: password in /home/ptsdico1/public_html/data-polisi/api/login.php on line 8
+[30-Apr-2019 06:03:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Apr-2019 06:03:45 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Apr-2019 06:03:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Apr-2019 06:03:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Apr-2019 06:03:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[30-Apr-2019 06:03:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:48:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:48:49 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:48:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:48:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:48:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:48:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[29-May-2019 00:49:07 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[01-Jun-2019 13:17:35 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[01-Jun-2019 13:17:35 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[01-Jun-2019 13:17:37 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[01-Jun-2019 13:17:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[12-Jun-2019 19:44:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[12-Jun-2019 19:44:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[23-Jun-2019 09:06:58 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Jul-2019 19:15:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Jul-2019 19:15:20 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Jul-2019 19:15:28 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[08-Jul-2019 19:15:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[28-Jul-2019 09:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[28-Jul-2019 09:55:17 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[28-Jul-2019 09:55:36 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[05-Aug-2019 14:25:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:25:31 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:16 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[05-Aug-2019 14:26:18 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:24 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:26 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:30 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:32 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:34 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:38 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[05-Aug-2019 14:26:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:43 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[05-Aug-2019 14:26:57 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Aug-2019 18:15:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[27-Aug-2019 18:15:41 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[15-Sep-2019 11:02:55 Asia/Krasnoyarsk] PHP Notice:  Undefined index: level in /home/ptsdico1/public_html/data-polisi/api/login.php on line 58
+[15-Sep-2019 11:02:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[15-Sep-2019 11:02:56 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[15-Sep-2019 11:03:11 Asia/Krasnoyarsk] PHP Notice:  Undefined index: item_type in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 5
+[15-Sep-2019 11:03:14 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[15-Sep-2019 11:03:18 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[15-Sep-2019 11:03:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6
+[15-Sep-2019 11:03:40 Asia/Krasnoyarsk] PHP Notice:  Undefined index: individu_id in /home/ptsdico1/public_html/data-polisi/api/getcontacts.php on line 6

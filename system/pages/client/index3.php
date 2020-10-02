@@ -213,7 +213,7 @@
                     $.ajax({
                         type: "POST",
                         dataType: "json",
-                        url: "../apps/daemon.php",//request
+                        url: "../apps/daemon3.php",//request
                         data: data,					
                         success: function(data) {
                             //$('.jumbotron h1').fadeIn('slow');
@@ -411,7 +411,7 @@
                     $.ajax({
                         type: "POST",
                         dataType: "json",
-                        url: "../apps/daemon.php",//request
+                        url: "../apps/daemon3.php",//request
                         data: data,					
                         success: function(data) {
                             //$('.jumbotron h1').fadeIn('slow');

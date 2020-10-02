@@ -29,9 +29,10 @@ mssql_close($ConSA);
 /*MYSQL SERVER*/
 //$results = $mysqli->query('SELECT Max(id) as id FROM data_antrian WHERE counter='.$loket.'');
 //Jika nomor antrian per loket
-//$results = $mysqli->query('SELECT count(*) as id FROM data_antrian WHERE counter='.$loket.$filter_waktu.' ORDER by id');
+$sql = 'SELECT count(*) as id FROM data_antrian WHERE counter='. $loket . $filter_waktu.' ORDER by id';
+$results = $mysqli->query($sql);
 //Jika nomor antrian tidak per loket
-$results = $mysqli->query('SELECT count(*) as id FROM data_antrian WHERE id '.$filter_waktu.' ORDER by id');
+//$results = $mysqli->query('SELECT count(*) as id FROM data_antrian WHERE id '.$filter_waktu.' ORDER by id');
 
 $row = $results->fetch_array();
 if ($row['id'] == NULL) {

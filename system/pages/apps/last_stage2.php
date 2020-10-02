@@ -1,0 +1,49 @@
+<?php
+ //require "../../php/connfile.php";
+		//require "../../php/functionfile.php";
+		//require "../../php/insertupdate.php";
+
+include "mysql_connect.php";	
+
+$date = date("Y-m-d");
+$filter_jenis_antrian = " AND jenis_antrian_poliklinik = '0' ";
+
+
+/*SQL SERVER*/
+/*
+$SQL = " SELECT Max(id) as id FROM data_antrian WHERE counter='".$loket."' ";
+$mRs = mssql_query($SQL);
+$mRo = mssql_fetch_array($mRs);
+$tRo = mssql_num_rows($mRs);
+if ($tRo==0){		
+	$id=0;
+	//-->$data = array('next' => 0);
+}else{
+	$id=$mRo[0];
+	//-->$data = array('next' => $id);
+}
+mssql_close($ConSA);
+*/
+
+
+/*MYSQL SERVER*/
+//$results = $mysqli->query('SELECT Max(id) as id FROM data_antrian WHERE counter='.$loket.'');
+
+//Jika nomor antrian per loket
+//$sql = 'SELECT count(*) as id FROM data_antrian WHERE counter='. $loket . $filter_waktu.' ORDER by id';
+
+//Jika nomor antrian tidak per loket
+$sql = 'SELECT count(*) as id FROM data_antrian WHERE id ' . $filter_waktu . $filter_jenis_antrian . ' ORDER by id';
+
+$results = $mysqli->query($sql);
+
+$row = $results->fetch_array();
+if ($row['id'] == NULL) {
+    $data = array('next' => 0);
+} else {
+    $data = array('next' => $row['id']);
+}
+echo json_encode($data);
+include 'mysql_close.php';
+
+?>

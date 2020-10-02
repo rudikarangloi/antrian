@@ -7,6 +7,7 @@ define('PasswordSA','simblud');
 $serverName = "MY-KOMP";
 $connectionInfo = array( "Database"=>"rsgold", "UID"=>"sa", "PWD"=>"simblud");
 
+/*
 $ConSA = sqlsrv_connect( $serverName, $connectionInfo);
 $GLOBALS['_ConSA'] = $ConSA ;
 if($ConSA)
@@ -17,6 +18,9 @@ if($ConSA)
 	echo "Error: <font color='#FF0000'>Koneksi ke SQL server tidak berhasil...!!</font>";
 	exit;;
 }
+
+*/
+
 
 /*
 function CallConnection($gDatabase,$gCon)

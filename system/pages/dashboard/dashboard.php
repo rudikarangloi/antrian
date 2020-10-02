@@ -5,7 +5,7 @@
     include('../head_css.php'); 
     extract($_GET);
     ?>
-    
+  
     <body class="skin-black">
         <!-- header logo: style can be found in header.less -->
         <?php         
@@ -36,7 +36,11 @@
                     <div class="row">
                         <?php 
                             if($jenis=='antrian'){
-                                include('list_loket.php'); 
+                                //include('list_loket.php'); 
+                                include('admin.php'); 
+                            }
+                            elseif($jenis=='panggilan'){
+                                include('admin_panggilan.php');                             
                             }else{
                                 include('../apotik/admin_apotik.php'); 
                             }

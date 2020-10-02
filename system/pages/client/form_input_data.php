@@ -29,13 +29,18 @@ extract($_POST);
 
 //Mysql
 //------
-$NM_PASIEN= '-';
-$ALM_PASIEN= '-';
-$TLP_PASIEN= '-';
-$KOTA_PASIEN= '-';
-$JNS_KELAMIN=  '-';
 
+$FS_MR= $FS_MR;		  
+$NM_PASIEN= $FS_NM_PASIEN;
+$ALM_PASIEN= $FS_ALM_PASIEN;
+$TLP_PASIEN= $FS_TLP_PASIEN;
+$KOTA_PASIEN= $FS_KOTA_PASIEN;
+$JNS_KELAMIN=  '-';
+$FS_KD_IDENTITAS=  $FS_KD_IDENTITAS;
+
+/*
 $sql = "SELECT FS_NM_PASIEN AS FldD FROM tc_mr WHERE FS_MR = '". $input_data ."'";
+$sql = "SELECT FS_NM_PASIEN AS FldD FROM tc_mr WHERE FS_KD_IDENTITAS = '". $input_data ."'";
 $rstClient = $mysqli->query($sql);			
 $rowClient = $rstClient->fetch_array();
 if($rowClient['FldD']){
@@ -72,6 +77,14 @@ if($rowClient['FldD']){
 	$JNS_KELAMIN= $rowClient['FldD'];
 } 
 
+$sql = "SELECT FS_KD_IDENTITAS AS FldD FROM tc_mr WHERE FS_MR = '". $input_data ."'";
+$rstClient = $mysqli->query($sql);			
+$rowClient = $rstClient->fetch_array();
+if($rowClient['FldD']){
+	$FS_KD_IDENTITAS= $rowClient['FldD'];
+} 
+
+*/
 		
 		
 
@@ -107,7 +120,7 @@ if($JNS_KELAMIN=='0'){
 						<td width="1%">&nbsp;</td>
 						<td width="13%">No.Rekam Medis</td>
 						<td width="1%">:</td>
-						<td width="30%"><?php echo $input_data;?></td>
+						<td width="30%"><?php echo $FS_MR;?></td>
 						<td width="1%">&nbsp;</td>
 						<td width="20%">Alamat</td>
 						<td width="1%">:</td>
@@ -131,9 +144,9 @@ if($JNS_KELAMIN=='0'){
 						<td width="1%">:</td>
 						<td width="30%"><?php echo $TLP_PASIEN;?></td>
 						<td width="1%">&nbsp;</td>
-						<td width="20%">Jenis Kelamin</td>
-						<td width="1%">:</td>
-						<td width="29%"><?php echo $JNS_KELAMIN;?>&nbsp;</td>
+						<td width="20%"></td>
+						<td width="1%"></td>
+						<td width="29%">&nbsp;</td>
 						<td width="1%">&nbsp;</td>
 					</tr>
 
@@ -168,8 +181,15 @@ if($JNS_KELAMIN=='0'){
 						<td width="92%" colspan="7">
 
 						<form name = "myfrm" class="form-tied margin-00" action="form_input_data2.php" method="post">
-							<input type="hidden" name="fNoRM" id="fNoRM"  value="<?php echo $input_data;?>"  />
 							<input type="hidden" name="input_data" id="input_data"  value="<?php echo $input_data;?>"  />
+							<input type="hidden" name="fNoRM" id="fNoRM"  value="<?php echo $input_data;?>"  />
+							<input type="hidden" name="FS_MR" id="FS_MR"  value="<?php echo $FS_MR;?>"  />
+							<input type="hidden" name="NM_PASIEN" id="NM_PASIEN"  value="<?php echo $NM_PASIEN;?>"  />
+							<input type="hidden" name="ALM_PASIEN" id="ALM_PASIEN"  value="<?php echo $ALM_PASIEN;?>"  />
+							<input type="hidden" name="TLP_PASIEN" id="TLP_PASIEN"  value="<?php echo $TLP_PASIEN;?>"  />
+							<input type="hidden" name="KOTA_PASIEN" id="KOTA_PASIEN"  value="<?php echo $KOTA_PASIEN;?>"  />
+							<input type="hidden" name="FS_KD_IDENTITAS" id="FS_KD_IDENTITAS"  value="<?php echo $FS_KD_IDENTITAS;?>"  />
+							
 							
 
 							<table border="0" width="100%">
@@ -293,7 +313,7 @@ if($JNS_KELAMIN=='0'){
 										</td>
 									</tr>
 									<tr>
-										<td width="179">No.KTP</td>
+										<td width="179">Nomor KTP</td>
 										<td width="23">:</td>
 										<td>										
 												<!-- <input type="text" name="fKtEP" id="fKtEP" value="<?=$KtEP?>"  maxlength="16" style="width: 110px" />
@@ -302,7 +322,7 @@ if($JNS_KELAMIN=='0'){
 													onClick="LoadBPJSCLICK('BpJK','ktp','<?=$xID?>','<?=$xPS?>')" 
 													style="width: 40px; height: 21px"/> -->
 
-												<input type="text" name="fKtEP" id="fKtEP" value="<?php //echo $KtEP;?>" maxlength="16"
+												<input type="text" name="fKtEP" id="fKtEP" value="" maxlength="16"
 													class="form-control" placeholder="Nomor KTP" style="width: 200px;"> 												
 											
 												<button type="button" name="B3232" class="btn btn-success" onClick="LoadBPJSCLICK('BpJK','ktp','<?=$xID?>','<?=$xPS?>')" > Cek </button>
@@ -319,7 +339,7 @@ if($JNS_KELAMIN=='0'){
 										<td width="179">Kelompok</td>
 										<td width="23">:</td>
 										<td>
-											<input type="text" name="fJnpK" id="fJnpK" value="<?php //echo $JnpK?>" readonly style="width: 25px; text-align:center; background:#<?=$redON?>" />
+											<input type="text" name="fJnpK" id="fJnpK" value="<?php //echo $JnpK?>" readonly style="width: 35px; text-align:center; background:#<?=$redON?>" />
 											<input type="text" name="fJnpD" id="fJnpD" value="<?php //echo $JnpD?>" readonly style="width: 227px; background:#<?php  //echo $redON?>" />
 										</td>
 									</tr>
@@ -327,7 +347,7 @@ if($JNS_KELAMIN=='0'){
 										<td width="179">Kelas Tanggungan</td>
 										<td width="23">:</td>
 										<td>
-											<input type="text" name="fKelK" id="fKelK" value="<?php  //echo $KelK?>" readonly style="width: 25px; text-align:center; background:#<?=$redON?>" />
+											<input type="text" name="fKelK" id="fKelK" value="<?php  //echo $KelK?>" readonly style="width: 35px; text-align:center; background:#<?=$redON?>" />
 											<input type="text" name="fKelD" id="fKelD" value="<?php  //echo $KelD?>" readonly style="width: 227px; background:#<?=$redON?>" />
 										</td>
 									</tr>
@@ -335,7 +355,7 @@ if($JNS_KELAMIN=='0'){
 										<td width="179">Status</td>
 										<td width="23">:</td>
 										<td>
-											<input type="text" name="fStaK" id="fStaK" value="<?php  //echo $StaK?>" readonly style="width: 25px; text-align:center; background:#<?=$redON?>" />
+											<input type="text" name="fStaK" id="fStaK" value="<?php  //echo $StaK?>" readonly style="width: 35px; text-align:center; background:#<?=$redON?>" />
 											<input type="text" name="fStaD" id="fStaD" value="<?php  //echo $StaD?>" readonly style="width: 227px; background:#<?=$redON?>" />
 										</td>
 									</tr>
@@ -650,7 +670,51 @@ if($JNS_KELAMIN=='0'){
 	}
 
 	function LoadBPJSCLICK(CrT,sCrt,sIdc,sKey)
+        {
+           
+            if (sCrt=='ktp')
+            {
+                var rek = objfrm.fKtEP.value;
+                rek = rek.replace(" ","");
+                
+                if (rek=='')
+                {
+                    alert('Nomor KTP masih kosong..!!');
+                    return false;
+                }
+                if (rek.length<16)
+                {
+                    alert('Nomor kartu penduduk tidak lengkap..!!');
+                    return false;
+                }
+                gVL = RefText(rek);
+            }
+            else
+            {
+                var rex = objfrm.fBpJK.value;
+                rex = rex.replace(" ","");
+
+                if (objfrm.fBpJK.value=='')
+                {
+                    alert('Nomor peserta masih kosong..!!');
+                    return false;
+                }
+                if (rex.length<13)
+                {
+                    alert('Nomor kartu peserta BPJS tidak lengkap..!!');
+                    return false;
+                }
+                gVL = RefText(rex.replace(" ",""));
+			}
+			//console.log(CrT+' : '+sCrt+' : '+sIdc+' : '+sKey + ' -> ' + gVL)
+            $("#loadingImg").show();
+            fCariBPJS(CrT,gVL,sCrt,sIdc,sKey);
+			$("#loadingImg").hide();
+		}
+		
+	function LoadBPJSCLICK_old(CrT,sCrt,sIdc,sKey)
 	{
+		console.log(CrT+' : '+sCrt+' : '+sIdc+' : '+sKey)
 		if (sCrt=='ktp')
 		{
 			//var rek = objfrm.fKtEP.value;

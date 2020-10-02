@@ -124,13 +124,15 @@
 	    	$txt_nomor   = $_POST['txt_nomor'];
 	    	$txt_nama    = $_POST['txt_nama'];
 	    	$txt_kelamin = $_POST['txt_kelamin'];	
+			$kdpoli      = $_POST['kdpoli'];
+			$kuota_hp    = $_POST['kuota_hp'];			
 		
 		$chk = $mysqli->query("SELECT * from client_antrian where client = '".$txt_nomor."'"); 
 		$ct = mysqli_num_rows($chk);
 
 		if($ct == 0){
-			$query = $mysqli->query("INSERT INTO client_antrian (client,description,kode_layanan) 
-								values ('".$txt_nomor."','".$txt_nama."','".$txt_kelamin."')"); 
+			$query = $mysqli->query("INSERT INTO client_antrian (client,description,kode_layanan,kdpoli,Kuota_hp) 
+								values ('".$txt_nomor."','".$txt_nama."','".$txt_kelamin."','".$kdpoli."','".$kuota_hp."')"); 
 			if($query == true){
 	            $_SESSION['added'] = 1;
 	            header ("location: ".$_SERVER['REQUEST_URI']);
@@ -181,6 +183,32 @@
 		if($ct == 0){
 			$query = $mysqli->query("INSERT INTO tblbanner (banner,keterangan,status) 
 								values ('".$txt_nomor."','".$txt_nama."','".$txt_kelamin."')"); 
+			if($query == true){
+	            $_SESSION['added'] = 1;
+	            header ("location: ".$_SERVER['REQUEST_URI']);
+			}
+		}
+		else{
+			$_SESSION['duplicate'] = 1;
+            header ("location: ".$_SERVER['REQUEST_URI']);
+		}
+	}
+?>
+
+
+<!-- =========  ADD INFO  ============== -->
+<?php
+	if(isset($_POST['btn_add_info'])){
+	    	$txt_nomor   = $_POST['txt_nomor'];
+	    	$txt_nama    = $_POST['txt_nama'];
+	    
+		
+		$chk = $mysqli->query("SELECT * from info where informasi = '".$txt_nomor."'"); 
+		$ct = mysqli_num_rows($chk);
+
+		if($ct == 0){
+			$query = $mysqli->query("INSERT INTO info (informasi,keterangan) 
+								values ('".$txt_nomor."','".$txt_nama."')"); 
 			if($query == true){
 	            $_SESSION['added'] = 1;
 	            header ("location: ".$_SERVER['REQUEST_URI']);

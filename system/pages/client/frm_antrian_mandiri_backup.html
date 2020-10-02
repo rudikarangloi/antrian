@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Sistem Antrian</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assert/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../assert/css/keyboard-virtual.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="../assert/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../assert/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+
+  <!--
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+ 
+     Custom styles for this template -->
+  <link href="../assert/css/landing-page.min.css" rel="stylesheet">
+
+  <script src="../assert/asset/js/lib/jquery.js"></script>
+  <script src="../assert/asset/js/lib/jquery-ui.js"></script>
+  <script src="../assert/asset/js/lib/jquery.cookie.js"></script>
+  <script src="../assert/asset/js/lib/bootstrap/bootstrap.js"></script>
+
+  <script src="../assert/asset/plugins/bootstrap-bootbox/bootbox.min.js"></script>
+  <script src="../assert/asset/plugins/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
+  <script src="../assert/asset/plugins/bootstrap-modal/js/bootstrap-modal.js"></script>
+  
+  <script src="../assert/asset/js/scanner/vendor/modernizr/modernizr.js"></script>
+  <script src="../assert/asset/js/scanner/vendor/vue/vue.min.js"></script>
+
+
+</head>
+
+
+<style>
+  #peringatan{
+      text-align: center;
+      font-size: 30px;
+      color: red
+
+    }
+	
+</style>
+
+<body>
+
+  <header class="masthead text-white text-center">
+
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5"></h1>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+
+          <form name="myfrm" method="POST" action="form_input_data.php">
+            <div class="form-row">
+
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="text" name="input_data" id="input_data" class="form-control form-control-lg" placeholder="Masukan Nomor NIK"
+                  required>
+              </div>
+              <div id="loadingImg" style="float:right; text-align:center; width:80%; height:0px; position:absolute; display:none">
+                <img src="../assert/img/loading3.gif" alt="" width="100" height="100">
+              </div>
+              <div class="col-12 col-md-3">
+                <button type="button" class="btn btn-block btn-lg btn-primary">Daftar</button>				
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <p id="peringatan">Data Tidak di kenal</p>
+ 
+
+
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+
+          <p class="text-muted small mb-4 mb-lg-0">&copy; RSSI 2020.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+ 
+    
+<script src="../assert/asset/js/scanner/js/app.js"></script>
+<script src="../assert/asset/js/scanner/vendor/instascan/instascan.min.js"></script>
+<script src="../assert/asset/js/scanner/js/scanner.js"></script>
+
+<script languange="javascript">
+    var objfrm = document.myfrm;
+
+    $("document").ready(function () {
+
+      jqKeyboard.init();
+
+	  $('#input_data').focus().val($('#input_data').val());
+	  
+      $('#peringatan').hide();     
+
+      $(".btn").click(function () {
+
+        var input_data = $('#input_data').val();
+
+        if (input_data == '') {
+          alert('Silahkan Isi Data terlebih dulu');
+        } else {
+          $("#loadingImg").show();
+          $(".btn").attr("disabled", true);
+
+          $.post("cek_data_antrian.php", {
+            "input_data": input_data
+          }, function (data) {
+
+            if (data['peringatan'] == '1') {
+				$('#peringatan').show();
+				$('#peringatan').html('Data tidak di temukan');				
+				//alert(data['nama'])			  
+            } else {		
+				$('#peringatan').show();
+				$('#peringatan').html('Data berhasil Di temukan');
+				//alert(data['data']['nama'])				
+				retrieve_sql_server(data['data']['nik'],data['data']);				
+				
+				
+              //$(objfrm).submit()
+            }
+
+            $("#loadingImg").hide();
+
+            $(".btn").removeAttr("disabled");
+
+          }, "json");
+        }
+
+
+      });
+	  
+	  function retrieve_sql_server(myData, data){
+		
+		var input_data = myData;
+		var arrData = data;
+		
+		$.post("http://www.localhost:8090/sql_server_develop/konfirmasi_antrian.php", {
+            "input_data": input_data,"arrData": arrData
+          }, function (data) {
+
+               //alert(data['msg'])	
+            
+          }, "json");
+	  
+	  }
+
+
+
+    });
+  </script>
+
+</body>
+
+</html>

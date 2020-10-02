@@ -3,250 +3,139 @@ require "connfile-php7.php";
 require "functionfile-php7.php";
 header('Content-Type: text/xml');
 
-$CrT = $_GET['CrT'];
-$gMS = $_GET['gMST'];
-$gVL = $_GET['gVL'];
-
-if ($CrT=="CrFAK")
-{
-	$nSQ = "SELECT FS_KD_LAYANAN, FS_NM_LAYANAN from TA_LAYANAN where FS_KD_LAYANAN LIKE '$gMS%' ORDER BY FS_KD_LAYANAN";
-	// $nRs = mssql_query($nSQ);
-	// echo '<output>';
-	// while ($mRo = mssql_fetch_array($nRs))
-
-	$nRs = sqlsrv_query($ConSA, $nSQ);
-	echo '<output>';
-	while ($mRo = sqlsrv_fetch_array($nRs))
-	{
-		echo "<ArrMisi>".str_replace('&','DAN',$mRo[1])."</ArrMisi>";
-		echo "<ArrMisiKey>".$mRo[0]."</ArrMisiKey>";
-	}
-	echo '</output>';
+if (isset($_GET['CrT'])) {
+	$CrT = $_GET['CrT'];
+}else{
+	$CrT = '';
+}
+if (isset($_GET['gMST'])) {
+	$gMS = $_GET['gMST'];
+}else{
+	$gMS = '';
+}
+if (isset($_GET['gVL'])) {
+	$gVL = $_GET['gVL'];
+}else{
+	$gVL  = '';
 }
 
-if ($CrT=="BpJKSEP_UpD")
+if ($CrT=="BpJK")
 {
 	$sIdc = $_GET['sIdc'];
 	$sKey = $_GET['sKey'];
+	
 	require "signature.php";
 	
-	$sNom = str_replace(" ","",$gVL);
 	$sCrt = $_GET['sCrt'];
-	$nSeP = $_GET['nSeP'];
-	$PoLi = str_replace(" ","",$_GET['gPoLi']);
-	$NoRm = str_replace(" ","",$_GET['gNoRM']);
-	$DiAg = str_replace(" ","",$_GET['gDiAK']);
-	$LakA = str_replace(" ","",$_GET['gLakA']);
-	$LokA = $_GET['gLokA'];
-	$CatA = $_GET['gCatA'];
+	$sNom = $gVL;
 	
-	$KelK = str_replace(" ","",$_GET['gKelK']);
-	$RjNK = str_replace(" ","",$_GET['gRjNK']);
-	if ($RjNK=="") {$RjNK="-";}
-	$RjPK = str_replace(" ","",$_GET['gRjPK']);
-	if ($RjPK=="") {$RjPK="";}
-	$InSK = str_replace(" ","",$_GET['gInSK']);
-	if ($InSK=="03"){$JnSP = 1;}
-	else if ($InSK=="02"){$JnSP = 2;}
-	else {$JnSP = "0";}
-	
-	$TglSEP = str_replace(" ","",$_GET['TglSEP']);
-	$TglSED = explode("-",$TglSEP);
-	$TglSEP = $TglSED[2]."-".$TglSED[1]."-".$TglSED[0];
-	$JamSEP = str_replace(" ","",$_GET['JamSEP']);
-	
-	$TglRJK = str_replace(" ","",$_GET['TglRJK']);
-	$TglRJD = explode("-",$TglRJK);
-	$TglRJK = $TglRJD[2]."-".$TglRJD[1]."-".$TglRJD[0];
-	$JamRJK = str_replace(" ","",$_GET['JamRJK']);
-	
-	$nopeserta = $sNom;
-	$tglsep    = $TglSEP." ".$JamSEP;
-	$tglrujuk  = $TglRJK." ".$JamRJK;	#lebih tua dari tglSEP
-	
-	$diagnosa  = $DiAg;
-	$norujukan = $RjNK;
-	$ppkruju   = $RjPK;
-	
-	#$ppkpela   = "1402R001";
-	$ppkpela   = $xPP;
-	
-	$catatan   = $CatA;
-	$lokasi    = "Pangkalan Bun";
-	if ($LokA!=""){$lokasi=$LokA;}
-	$dataBP  ='
-	{
-		"request":
-		 {
-			"t_sep":
-			{
-				"noSep":"'.$nSeP.'",
-				"noKartu":"'.$nopeserta.'",
-				"tglSep":"'.$tglsep.'",
-				"tglRujukan":"'.$tglrujuk.'",
-				"noRujukan":"'.$norujukan.'",
-				"ppkRujukan":"'.$ppkruju.'",
-				"ppkPelayanan":"'.$ppkpela.'",
-				"jnsPelayanan":"'.$JnSP.'",
-				"catatan":"'.$catatan.'",
-				"diagAwal":"'.$diagnosa.'",
-				"poliTujuan":"'.$PoLi.'",
-				"klsRawat":"'.$KelK.'",
-				"lakaLantas":"'.$LakA.'",
-				"lokasiLaka":"'.$lokasi.'",
-				"user":"RS",
-				"noMr":"'.$NoRm.'"
-			}
-		 }
-	}';
-	
-	$url  = $BaseURL."/".$ServNMA."/SEP/update";
-	$port = $BasPORT;
-	
-	$referer = '';
-	$result = post_request($url, $port, $sIdc, $tStamp, $encodedSignature, $dataBP, $referer = '');
-	
-	if ($result['status'] == 'ok') 
-	{
-		$resultstr = str_replace("re d sponse", "response", trim(preg_replace('/\s\s+/', ' ', $result['content'])));
-		$pos = strpos($resultstr, "{");
-		if ($pos === false) 
-			$pos = 0;
-			$rpos = strrpos($resultstr, "}");
-			
-		if ($rpos === false) 
-			$rpos = strlen($resultstr);
+	if ($sCrt=='ktp'){
+		$sNik="nik/";
+	}
+	else {
+		$sNik="nokartu/";
+	}
 		
-		$resultstr = substr($resultstr,$pos,$rpos-$pos+1);
-		$respon  = json_decode($resultstr, true);
-		$code    = $respon[metadata]['code'];
-		$mess    = $respon[metadata]['message'];
-		if($code==200)
-		{
-			echo '<output>';
-			echo '<ArrSEP>'.$code.'</ArrSEP>';
-			echo '<ArrSEP>'.$respon[response].'</ArrSEP>';
-			echo '</output>';
-		}
-		else
-		{
-			echo '<output>';
-			echo '<ArrSEP>'.$code.'</ArrSEP>';
-			echo '<ArrSEP>Error : '.$code.' ('.$mess.')</ArrSEP>';
-			echo '</output>';
-		}
-	} 
-	else 
+	$url = "https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/Peserta/";
+	
+	$url.= $sNik;     
+	$url.= $sNom;
+	$url.= "/tglSEP/2020-02-14";
+	
+	//$url = "https://new-api.bpjs-kesehatan.go.id:8080/new-vclaim-rest/Peserta/nik/3172030901760002/tglSEP/2020-02-14";
+	
+	$curl = curl_init($url);
+	curl_setopt($curl, CURLOPT_HEADER, false);
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($curl, CURLOPT_HTTPHEADER,array("Accept: application/json\r\n" . "X-cons-id: ".$sIdc."\r\n" . "X-Timestamp: $tStamp\r\n" . "X-Signature: $encodedSignature"));
+	//curl_setopt($curl, CURLOPT_GET, true);
+	curl_setopt($curl, CURLOPT_HTTPGET, true); 
+	//curl_setopt($curl,CURLOPT_SSL_VERIFYPEER, false);
+	$json_response = curl_exec($curl);
+	$error_msg = curl_error($curl);
+	curl_close($curl);
+	
+	$ArrData = json_decode($json_response, true);
+	$ArrCode = $ArrData['metaData']['code']; 
+	$ArrMess = $ArrData['metaData']['message']; 
+	
+	/*
+	//curl_setopt($curl, CURLOPT_GET, true);  
+	curl_setopt($curl, CURLOPT_HTTPGET, true);  
+	//curl_setopt($curl,CURLOPT_SSL_VERIFYPEER, false);
+	$json_response = curl_exec($curl);
+	$error_msg = curl_error($curl);
+	curl_close($curl);
+	
+	$ArrData = json_decode($json_response, true);
+	$ArrCode = $ArrData['metaData']['code']; 
+	$ArrMess = $ArrData['metaData']['message']; 
+	*/
+		
+	if($ArrCode=="200")
 	{
 		echo '<output>';
-		echo '<ArrSEP>'.$code.'</ArrSEP>';
-		echo '<ArrSEP>'.$result['error'].'</ArrSEP>';
-		echo '</output>';
-	}
-}
+		//echo '<ArrBPJS>tesberhasil</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrCode.'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrMess.'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['noKartu'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['nik'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['nama'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['statusPeserta']['kode'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['statusPeserta']['keterangan'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['hakKelas']['kode'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['hakKelas']['keterangan'].'</ArrBPJS>';
 
-if ($CrT=="BpJKSEP_CrT")
-{
-	$sIdc = $_GET['sIdc'];
-	$sKey = $_GET['sKey'];
-	require "signature.php";
-	
-	$sNom = str_replace(" ","",$gVL);
-	$sCrt = $_GET['sCrt'];
-	$PoLi = str_replace(" ","",$_GET['gPoLi']);
-	$NoRm = str_replace(" ","",$_GET['gNoRM']);
-	$DiAg = str_replace(" ","",$_GET['gDiAK']);
-	$LakA = str_replace(" ","",$_GET['gLakA']);
-	$LokA = $_GET['gLokA'];
-	$CatA = $_GET['gCatA'];
-
-
-	$KelK = str_replace(" ","",$_GET['gKelK']);
-	$RjNK = str_replace(" ","",$_GET['gRjNK']);
-	if ($RjNK=="") {$RjNK="-";}
-	$RjPK = str_replace(" ","",$_GET['gRjPK']);
-	if ($RjPK=="") {$RjPK="-";}
-	$InSK = str_replace(" ","",$_GET['gInSK']);
-	if ($InSK=="03"){$JnSP = 1;}
-	else if ($InSK=="02"){$JnSP = 2;}
-	else {$JnSP = "1";}
-	
-	$TglSEP = str_replace(" ","",$_GET['TglSEP']);
-	$TglSED = explode("-",$TglSEP);
-	$TglSEP = $TglSED[2]."-".$TglSED[1]."-".$TglSED[0];
-	$JamSEP = str_replace(" ","",$_GET['JamSEP']);
-	
-	$TglRJK = str_replace(" ","",$_GET['TglRJK']);
-	$TglRJD = explode("-",$TglRJK);
-	$TglRJK = $TglRJD[2]."-".$TglRJD[1]."-".$TglRJD[0];
-	$JamRJK = str_replace(" ","",$_GET['JamRJK']);
-	
-	$nopeserta = $sNom;
-	$tglsep    = $TglSEP." ".$JamSEP;
-	$tglrujuk  = $TglRJK." ".$JamRJK;	#lebih tua dari tglSEP
-	$diagnosa  = $DiAg;
-	$norujukan = $RjNK;				
-	$ppkruju   = $RjPK;
-	$ppkpela   = $xPP;
-	
-	$catatan   = $CatA;
-	$lokasi    = "Pangkalan Bun";
-	if ($LokA!=""){$lokasi=$LokA;}
-	$scml.='
-	{
-		"request":
-		 {
-			"t_sep":
-			{
-				"noKartu":"'.$nopeserta.'",
-				"tglSep":"'.$tglsep.'",
-				"tglRujukan":"'.$tglrujuk.'",
-				"noRujukan":"'.$norujukan.'",
-				"ppkRujukan":"'.$ppkruju.'",
-				"ppkPelayanan":"'.$ppkpela.'",
-				"jnsPelayanan":"'.$JnSP.'",
-				"catatan":"'.$catatan.'",
-				"diagAwal":"'.$diagnosa.'",
-				"poliTujuan":"'.$PoLi.'",
-				"klsRawat":"'.$KelK.'",
-				"lakaLantas":"'.$LakA.'",
-				"lokasiLaka":"'.$lokasi.'",
-				"user":"RS",
-				"noMr":"'.$NoRm.'"
-			}
-		 }
-	}';
-	$url = $BaseURL.":".$BasPORT."/".$ServNMA."/SEP/insert";
-	
-	$process = curl_init($url); 
-	curl_setopt($process, CURLOPT_HTTPHEADER,array("Content-Type: Application/x-www-form-urlencoded\r\n" . "X-cons-id: ".$sIdc."\r\n" . "X-Timestamp: $tStamp\r\n" . "X-Signature: $encodedSignature"));
-	curl_setopt($process, CURLOPT_HEADER, false);
-	curl_setopt($process, CURLOPT_TIMEOUT, 30);
-	curl_setopt($process, CURLOPT_POST, true);
-	curl_setopt($process, CURLOPT_POSTFIELDS, $scml);
-	curl_setopt($process, CURLOPT_RETURNTRANSFER, TRUE);
-	$return = curl_exec($process);
-	curl_close($process);
-	
-	$respon  = json_decode($return, true);
-	$code    = $respon[metadata]['code'];
-	$mess    = $respon[metadata]['message'];
-	if($code==200)
-	{
-		echo '<output>';
-		echo '<ArrSEP>'.$code.'</ArrSEP>';
-		echo '<ArrSEP>'.$respon[response].'</ArrSEP>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['jenisPeserta']['kode'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['jenisPeserta']['keterangan'].'</ArrBPJS>';
+		
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['provUmum']['kdProvider'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['provUmum']['nmProvider'].'</ArrBPJS>';
+		
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['tglTMT'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['tglTAT'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrData[response]['peserta']['tglCetakKartu'].'</ArrBPJS>';
+		echo '<ArrBPJS> '.$ArrData[response]['peserta']['mr']['noTelepon'].'</ArrBPJS>';
+		echo '<ArrBPJS>'.$json_response.'</ArrBPJS>';
 		echo '</output>';
 	}
 	else
-	{
+	{		
+		//ArrCode = '123';
+		//$ArrMess = 'Error';
+
 		echo '<output>';
-		echo '<ArrSEP>'.$code.'</ArrSEP>';
-		echo '<ArrSEP>'.$mess.'</ArrSEP>';
+		echo '<ArrBPJS>'.' Signature : '.$encodedSignature.' gagalcoy '.$ArrData.'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrCode.'</ArrBPJS>';
+		echo '<ArrBPJS>'.$ArrMess.'</ArrBPJS>';
+		if ($sCrt=='ktp'){
+			echo '<ArrBPJS>-</ArrBPJS>';
+			echo '<ArrBPJS>'.$gVL.'</ArrBPJS>';
+		}
+		else
+		{
+			echo '<ArrBPJS>'.$gVL.'</ArrBPJS>';
+			echo '<ArrBPJS>-</ArrBPJS>';
+		}
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
+		echo '<ArrBPJS>-</ArrBPJS>';
 		echo '</output>';
 	}
 }
 
+
+/*
 if ($CrT=="BpJK")
 {
 	$sIdc = $_GET['sIdc'];
@@ -307,6 +196,8 @@ if ($CrT=="BpJK")
 	}
 	else
 	{
+		$ArrCode = 'aaaaa';
+		$ArrMess = 'GGAGAL';
 		echo '<output>';
 		echo '<ArrBPJS>'.$ArrCode.'</ArrBPJS>';
 		echo '<ArrBPJS>'.$ArrMess.'</ArrBPJS>';
@@ -335,6 +226,7 @@ if ($CrT=="BpJK")
 		echo '</output>';
 	}
 }
+*/
 
 if ($CrT=="KwNK")
 {

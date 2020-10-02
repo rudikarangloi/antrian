@@ -28,8 +28,11 @@ extract($_GET);
 // echo "<br>fStaD  : ". $fStaD;
 // echo "<br>fLakA  : ". $fLakA;
 // echo "<br>fLokA  : ". $fLokA;
+ //echo "<br>Alamat  : ". $fAlamat;
+ // echo "<br>fNama  : ". $fNama;
+ //  echo "<br>fNik  : ". $fNik;
 
-// exit;
+ //exit;
 
 $Jns = 0;
 $fNoRM = unParseRM($fNoRM);
@@ -172,6 +175,8 @@ $tREG = $tNEW;
 			<p>RSSI <?php echo date("Y");?></p>
 			</footer>
 			<div id="loket"><?php echo $hidden_loket;?></div>
+			
+										
 		</div>
   	</body>
 <html>
@@ -181,12 +186,41 @@ $("document").ready(function(){
 	
 	$('.btn').html('Sedang Proses...');
 	var loket = $('#loket').html();
+	var caraBayar = "<?php echo $radCaraBayar;?>";
+	var noBPJS = "";
+	var noKTP = "";
 
 	var uri = "../apps/daemon.php";
-	var nomor_rm = "<?php echo $input_data;?>";
-	console.log(nomor_rm);
+	var nomor_rm = "<?php echo $FS_MR;?>";
+	var fAlamat = "<?php echo $fAlamat;?>";
+	var fNama = "<?php echo $fNama;?>";
+	var fNik = "<?php echo $fNik;?>";
+	var fJnpK = "<?php echo $fJnpK;?>";
+	var idPerusahaan = "<?php echo $idPerusahaan;?>";
+	var nmPerusahaan = "<?php echo $nmPerusahaan;?>";
+		
+	if (caraBayar=="V3") {
+	  jenis_antrian_poliklinik = "2";
+	} else if (caraBayar=="001") {
+	  jenis_antrian_poliklinik = "3";
+	} else {
+	  jenis_antrian_poliklinik = "1";
+	  noBPJS = "<?php echo $fBpJK;?>";
+	  noKTP = "<?php echo $fKtEP;?>";
+	}
 	
-    $.post( uri, {"loket" : loket,"nomor_rm": nomor_rm} ,	function( data ) {
+
+	console.log(nomor_rm);
+	console.log(' -> '+caraBayar);
+	console.log(' -> '+noBPJS);
+	console.log(' -> '+noKTP);
+	console.log(' -> '+jenis_antrian_poliklinik);
+	
+	console.log(' -> '+fAlamat);
+	console.log(' -> '+fNama);
+	console.log(' -> '+fNik);
+	  
+    $.post( uri, {"loket" : loket,"nomor_rm": nomor_rm,"noBPJS": noBPJS,"noKTP": fNik,"jenis_antrian_poliklinik": jenis_antrian_poliklinik,"fAlamat": fAlamat,"fNama": fNama,"fNik": fNik,"fJnpK": fJnpK,"idPerusahaan": idPerusahaan,"nmPerusahaan": nmPerusahaan} , function( data ) {
 		$(".jumbotron h1").html(data["next"]);	
 		$('#loading').hide();
 		$('.btn').html('BERIKUTNYA');

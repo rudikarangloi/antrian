@@ -251,18 +251,28 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label>Nomor:</label>
+                        <label>Nomor</label>
                         <input required name="txt_nomor" id="txt_nomor" class="form-control input-sm" type="text" placeholder="Nomor" />
                     </div>
 					
 					<div class="form-group">
-                        <label>Nama Poli:</label>
+                        <label>Nama</label>
                         <input required name="txt_nama" id="txt_nama" class="form-control input-sm" type="text" placeholder="Nama Loket" />
                     </div>
 					
                    <div class="form-group">
-                        <label>Kode:</label>
+                        <label>Kode Layanan</label>
                         <input required name="txt_kelamin" id="txt_kelamin" class="form-control input-sm" type="text" placeholder="Kode" />
+                    </div>
+					
+					 <div class="form-group">
+                        <label>Kode Poli</label>
+                        <input required name="kdpoli" id="kdpoli" class="form-control input-sm" type="text" placeholder="Kode" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>Kode HP</label>
+                        <input required name="kuota_hp" id="kuota_hp" class="form-control input-sm" type="text" placeholder="Kuota hp" />
                     </div>
 					
 					
@@ -273,7 +283,7 @@
         </div>
         <div class="modal-footer">
             <input type="button" class="btn btn-default btn-sm" data-dismiss="modal" value="Cancel"/>
-            <input type="submit" class="btn btn-primary btn-sm" id="btn_add_qr" name="btn_add_qr" value="Add Class"/>
+            <input type="submit" class="btn btn-primary btn-sm" id="btn_add_qr" name="btn_add_qr" value="Save"/>
         </div>
     </div>
   </div>
@@ -295,17 +305,17 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label>Teks:</label>
-                        <input required name="txt_nomor" id="txt_nomor" class="form-control input-sm" type="text" placeholder="Nomor" />
+                        <input required name="txt_nomor" id="txt_nomor" class="form-control input-sm" type="text" placeholder="Teks" />
                     </div>
 					
 					<div class="form-group">
                         <label>Keterangan:</label>
-                        <input required name="txt_nama" id="txt_nama" class="form-control input-sm" type="text" placeholder="Nama Loket" />
+                        <input required name="txt_nama" id="txt_nama" class="form-control input-sm" type="text" placeholder="Keterangan" />
                     </div>
 					
                    <div class="form-group">
                         <label>Status:</label>
-                        <input required name="txt_kelamin" id="txt_kelamin" class="form-control input-sm" type="text" placeholder="Kode" />
+                        <input required name="txt_kelamin" id="txt_kelamin" class="form-control input-sm" type="text" placeholder="Status" />
                     </div>
 					
 					
@@ -317,6 +327,44 @@
         <div class="modal-footer">
             <input type="button" class="btn btn-default btn-sm" data-dismiss="modal" value="Cancel"/>
             <input type="submit" class="btn btn-primary btn-sm" id="btn_add_banner" name="btn_add_banner" value="Tambah"/>
+        </div>
+    </div>
+  </div>
+  </form>
+</div>
+
+<!-- ========================= INFO ======================= -->
+<div id="addInfoModal" class="modal fade">
+<form method="post">
+  <div class="modal-dialog modal-sm" style="width:300px !important;">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Tambah Informasi</h4>
+        </div>
+        <div class="modal-body">
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label>Teks:</label>
+                        <input required name="txt_nomor" id="txt_nomor" class="form-control input-sm" type="text" placeholder="Isi Informasi" />
+                    </div>
+					
+					<div class="form-group">
+                        <label>Keterangan:</label>
+                        <input required name="txt_nama" id="txt_nama" class="form-control input-sm" type="text" placeholder="Keterangan" />
+                    </div>
+					
+                 					
+                  
+                </div>
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+            <input type="button" class="btn btn-default btn-sm" data-dismiss="modal" value="Cancel"/>
+            <input type="submit" class="btn btn-primary btn-sm" id="btn_add_info" name="btn_add_info" value="Tambah"/>
         </div>
     </div>
   </div>

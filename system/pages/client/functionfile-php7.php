@@ -1,16 +1,20 @@
 <?php
-
 $xID = "4328";
 $xPS = "rsu41iman902";
+
 #$xPP = "1402R001";
 #$xPP = "1402R001";
 
 #echo base64_encode('trs-transportasi');
 #Server Develove
 #$BaseURL = "http://dvlp.bpjs-kesehatan.go.id:8081";
-$BaseURL = "http://dvlp.bpjs-kesehatan.go.id";
-$BasPORT = "8081";
-$ServNMA = "devwslokalrest";
+#$BaseURL = "http://dvlp.bpjs-kesehatan.go.id";
+#$BasPORT = "8081";
+#$ServNMA = "devwslokalrest";
+
+$BaseURL = "https://new-api.bpjs-kesehatan.go.id";
+$BasPORT = "8080";
+$ServNMA = "new-vclaim-rest";
 
 #Server Real
 #$BaseURL = "http://172.16.2.16:80";

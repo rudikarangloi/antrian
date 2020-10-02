@@ -107,11 +107,19 @@
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
 
-          <form name="myfrm" method="POST" action="form_input_data.php">
+          <form name="myfrm" method="POST" action="form_input_data.php">		     
+					  
+			 <input type="hidden" id="FS_MR" name="FS_MR">
+			 <input type="hidden" id="FS_KD_IDENTITAS" name="FS_KD_IDENTITAS">
+			 <input type="hidden" id="FS_NM_PASIEN" name="FS_NM_PASIEN">			 
+			 <input type="hidden" id="FS_ALM_PASIEN" name="FS_ALM_PASIEN">
+			 <input type="hidden" id="FS_KOTA_PASIEN" name="FS_KOTA_PASIEN">
+			 <input type="hidden" id="FS_TLP_PASIEN" name="FS_TLP_PASIEN">
+			 
             <div class="form-row">
 
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="text" name="input_data" id="input_data" class="form-control form-control-lg" placeholder="Masukan Nomor rekam Medis ..."
+                <input type="text" name="input_data" id="input_data" class="form-control form-control-lg" placeholder="Masukan Nomor NIK"
                   required>
               </div>
               <div id="loadingImg" style="float:right; text-align:center; width:80%; height:0px; position:absolute; display:none">
@@ -127,7 +135,7 @@
       </div>
     </div>
   </header>
-  <p id="peringatan">Data Rekam Medis Tidak di kenal</p>
+  <p id="peringatan">Data Tidak di kenal</p>
 
   <!-- Footer -->
   <footer class="footer bg-light">
@@ -135,7 +143,7 @@
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
 
-          <p class="text-muted small mb-4 mb-lg-0">&copy; RSSI 2018.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; RSSI 2020.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
 
@@ -214,14 +222,30 @@
           $("#loadingImg").show();
           $(".btn").attr("disabled", true);
 
-          $.post("cek_data_rm.php", {
+          //$.post("cek_data_rm.php", {
+		  $.post("http://www.localhost:8090/sql_server_develop/konfirmasi_pasien.php", {
             "input_data": input_data
           }, function (data) {
 
             if (data['peringatan'] == '1') {
-              $('#peringatan').show();
+              $('#peringatan').show();	
+			  //alert(data['nama'])
+			  
             } else {
               $('#peringatan').html('Data Berhasil Di temukan <br> Proses Sedang Berlangsung');
+			  //alert(data['nama'])
+			  //alert(data['data']['FS_MR'])
+			  //alert(data['data']['FS_ALM_PASIEN'])
+			  //alert(data['data']['FS_KOTA_PASIEN']) 
+			  //alert(data['data']['FS_TLP_PASIEN'])
+			  
+			  document.getElementById("FS_MR").value = data['data']['FS_MR'];
+			  document.getElementById("FS_KD_IDENTITAS").value = data['data']['FS_KD_IDENTITAS'];
+			  document.getElementById("FS_NM_PASIEN").value = data['data']['FS_NM_PASIEN'];
+			  document.getElementById("FS_ALM_PASIEN").value = data['data']['FS_ALM_PASIEN'];
+			  document.getElementById("FS_KOTA_PASIEN").value = data['data']['FS_KOTA_PASIEN'];
+			  document.getElementById("FS_TLP_PASIEN").value = data['data']['FS_TLP_PASIEN'];
+			
               $(objfrm).submit()
             }
 

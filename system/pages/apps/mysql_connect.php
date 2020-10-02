@@ -16,7 +16,7 @@
 	
 	date_default_timezone_set("Asia/Jakarta");
 	$filter_waktu = " AND DATE(waktu) = CURDATE() ";
-	$model_antrian = 0;
+	$model_antrian = 1;
 	//Jika nomor antrian per loket : model_antrian = 1, artinya nomor tidak bersambung. antar poli punya nomor antrian sendiri
 	//Jika nomor antrian Tidak per loket : model_antrian = 0
 	
